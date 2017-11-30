@@ -5,17 +5,25 @@
  */
 package antiSpamFilter.gui;
 
+import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
 /**
+ * This is our take on a simple Graphical User Interface
+ * This layout was designed and adjusted at the start of the project via group meetings
  *
- * @author Rafael
+ * @author Carlos Rafael Fernandes
+ *
  */
 public class GUI extends javax.swing.JFrame {
 
     /**
-     * Creates new form GUIMainWindow
+     * @
      */
     public GUI() {
         initComponents();
+        setLocationRelativeTo(null);
+        setResizable(false);
     }
 
     /**
@@ -50,6 +58,8 @@ public class GUI extends javax.swing.JFrame {
         ChangeSpamPath = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Anti Spam Filter");
+        setResizable(false);
 
         Start.setText("Start");
 
@@ -139,11 +149,21 @@ public class GUI extends javax.swing.JFrame {
         ChangeHamPath.setMaximumSize(new java.awt.Dimension(45, 20));
         ChangeHamPath.setMinimumSize(new java.awt.Dimension(45, 20));
         ChangeHamPath.setPreferredSize(new java.awt.Dimension(45, 20));
+        ChangeHamPath.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ChangeHamPathActionPerformed(evt);
+            }
+        });
 
         ChangeSpamPath.setText("...");
         ChangeSpamPath.setMaximumSize(new java.awt.Dimension(45, 20));
         ChangeSpamPath.setMinimumSize(new java.awt.Dimension(45, 20));
         ChangeSpamPath.setPreferredSize(new java.awt.Dimension(45, 20));
+        ChangeSpamPath.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ChangeSpamPathActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PathPanelLayout = new javax.swing.GroupLayout(PathPanel);
         PathPanel.setLayout(PathPanelLayout);
@@ -190,6 +210,8 @@ public class GUI extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Path Config", PathPanel);
 
+        jTabbedPane1.setSelectedIndex(3);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -230,44 +252,34 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_ManualRadioActionPerformed
 
     private void ChangeRulesPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeRulesPathActionPerformed
-        // TODO add your handling code here:
+        JFileChooser path_chooser = new JFileChooser();
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("CF Files", "cf");
+        path_chooser.setFileFilter(filter);
+        int returnVal = path_chooser.showOpenDialog(this);
+        if(returnVal == JFileChooser.APPROVE_OPTION) {
+            RulesPath.setText(path_chooser.getSelectedFile().getPath());
+        }
     }//GEN-LAST:event_ChangeRulesPathActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(GUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(GUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(GUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(GUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    private void ChangeHamPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeHamPathActionPerformed
+        JFileChooser path_chooser = new JFileChooser();
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("LOG File", "log");
+        path_chooser.setFileFilter(filter);
+        int returnVal = path_chooser.showOpenDialog(this);
+        if(returnVal == JFileChooser.APPROVE_OPTION) {
+            HamPath.setText(path_chooser.getSelectedFile().getPath());
         }
-        //</editor-fold>
-        //</editor-fold>
+    }//GEN-LAST:event_ChangeHamPathActionPerformed
 
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new GUI().setVisible(true);
-            }
-        });
-    }
+    private void ChangeSpamPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeSpamPathActionPerformed
+        JFileChooser path_chooser = new JFileChooser();
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("LOG File", "log");
+        path_chooser.setFileFilter(filter);
+        int returnVal = path_chooser.showOpenDialog(this);
+        if(returnVal == JFileChooser.APPROVE_OPTION) {
+            SpamPath.setText(path_chooser.getSelectedFile().getPath());
+        }
+    }//GEN-LAST:event_ChangeSpamPathActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JRadioButton AutoRadio;
