@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e40531-3f6b-4d6d-8b40-39360ab826ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_FUN.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_FUN.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_VAR.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_VAR.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN4.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN4.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/HV" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/HV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_FUN.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_FUN.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_VAR.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_VAR.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR4.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR4.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/latex/AntiSpamStudy.tex" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/latex/AntiSpamStudy.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rf" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rs" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rf" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rs" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.form" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" />
     </list>
@@ -44,38 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AntiSpamFilterAutomaticConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="58" column="99" lean-forward="false" selection-start-line="58" selection-start-column="99" selection-end-line="58" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AntiSpamFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="30" column="113" lean-forward="false" selection-start-line="30" selection-start-column="113" selection-end-line="30" selection-end-column="113" />
+            <state relative-caret-position="578">
+              <caret line="70" column="120" lean-forward="true" selection-start-line="70" selection-start-column="120" selection-end-line="70" selection-end-column="120" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
-                <element signature="e#2028#2029#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="method#showGUI#0;class#AntiSpamFilter#0" expanded="false" />
+                <element signature="e#2454#2455#0" expanded="true" />
+                <element signature="e#2498#2499#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AntiSpamFilterProblem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -83,18 +42,27 @@
       <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="604">
+              <caret line="321" column="42" lean-forward="true" selection-start-line="321" selection-start-column="42" selection-end-line="321" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2514#2515#0" expanded="true" />
-                <element signature="e#2577#2578#0" expanded="true" />
-                <element signature="e#5568#5569#0" expanded="true" />
-                <element signature="e#5635#5636#0" expanded="true" />
-                <element signature="e#6050#6051#0" expanded="true" />
-                <element signature="e#6115#6116#0" expanded="true" />
-                <element signature="e#6535#6536#0" expanded="true" />
-                <element signature="e#6601#6602#0" expanded="true" />
+                <element signature="e#2603#2604#0" expanded="true" />
+                <element signature="e#2660#2661#0" expanded="true" />
+                <element signature="e#2903#2904#0" expanded="true" />
+                <element signature="e#2966#2967#0" expanded="true" />
+                <element signature="e#5957#5958#0" expanded="true" />
+                <element signature="e#6024#6025#0" expanded="true" />
+                <element signature="e#6439#6440#0" expanded="true" />
+                <element signature="e#6504#6505#0" expanded="true" />
+                <element signature="e#6924#6925#0" expanded="true" />
+                <element signature="e#6990#6991#0" expanded="true" />
+                <element signature="method#StartActionPerformed#0;class#GUI#0" expanded="false" />
+                <element signature="e#16982#16983#0" expanded="true" />
+                <element signature="e#17024#17025#0" expanded="true" />
+                <element signature="e#17058#17059#0" expanded="true" />
+                <element signature="e#17098#17099#0" expanded="true" />
+                <element signature="e#17132#17133#0" expanded="true" />
+                <element signature="e#17173#17174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,27 +137,6 @@
             <path>
               <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
-              <item name="experimentBaseDirectory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
-              <item name="experimentBaseDirectory" type="462c0819:PsiDirectoryNode" />
-              <item name="referenceFronts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
-              <item name="ReverseEngineeringModels" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
@@ -498,7 +445,7 @@
       <workItem from="1510323249533" duration="820000" />
       <workItem from="1510329669938" duration="15000" />
       <workItem from="1511953563024" duration="813000" />
-      <workItem from="1512070862602" duration="4796000" />
+      <workItem from="1512070862602" duration="7095000" />
     </task>
     <task id="LOCAL-00001" summary="Final support for IntelliJ and NetBeans added">
       <created>1510323590702</created>
@@ -521,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512075171847</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes:&#10;Added Popup JFileChooser&#10;Made GUI run via a different main (AntiSpamFilter.class)&#10;&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints">
+      <created>1512078779878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512078779878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6692000" />
+    <option name="totallyTimeSpent" value="8991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -570,7 +524,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final support for IntelliJ and NetBeans added" />
     <MESSAGE value="Changes:&#10;Added console to GUI&#10;Added configurable path options/fields to GUI&#10;&#10;TODO: Make GUI run via a different main&#10;TODO: Make Popup JFileChooser&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;Added console to GUI&#10;Added configurable path options/fields to GUI&#10;&#10;TODO: Make GUI run via a different main&#10;TODO: Make Popup JFileChooser&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
+    <MESSAGE value="Changes:&#10;Added Popup JFileChooser&#10;Made GUI run via a different main (AntiSpamFilter.class)&#10;&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;Added Popup JFileChooser&#10;Made GUI run via a different main (AntiSpamFilter.class)&#10;&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -634,6 +589,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -642,42 +613,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/swing/ButtonGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="113" lean-forward="false" selection-start-line="30" selection-start-column="113" selection-end-line="30" selection-end-column="113" />
+        <state relative-caret-position="194">
+          <caret line="76" column="16" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
-            <element signature="e#2028#2029#0" expanded="true" />
+            <element signature="e#3834#3835#0" expanded="true" />
+            <element signature="e#3866#3867#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/swing/JToggleButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="202">
+          <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/swing/JRadioButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="88" column="41" lean-forward="false" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="70" column="120" lean-forward="true" selection-start-line="70" selection-start-column="120" selection-end-line="70" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="method#showGUI#0;class#AntiSpamFilter#0" expanded="false" />
+            <element signature="e#2454#2455#0" expanded="true" />
+            <element signature="e#2498#2499#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="604">
+          <caret line="321" column="42" lean-forward="true" selection-start-line="321" selection-start-column="42" selection-end-line="321" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2577#2578#0" expanded="true" />
-            <element signature="e#5568#5569#0" expanded="true" />
-            <element signature="e#5635#5636#0" expanded="true" />
-            <element signature="e#6050#6051#0" expanded="true" />
-            <element signature="e#6115#6116#0" expanded="true" />
-            <element signature="e#6535#6536#0" expanded="true" />
-            <element signature="e#6601#6602#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
+            <element signature="e#2660#2661#0" expanded="true" />
+            <element signature="e#2903#2904#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+            <element signature="e#5957#5958#0" expanded="true" />
+            <element signature="e#6024#6025#0" expanded="true" />
+            <element signature="e#6439#6440#0" expanded="true" />
+            <element signature="e#6504#6505#0" expanded="true" />
+            <element signature="e#6924#6925#0" expanded="true" />
+            <element signature="e#6990#6991#0" expanded="true" />
+            <element signature="method#StartActionPerformed#0;class#GUI#0" expanded="false" />
+            <element signature="e#16982#16983#0" expanded="true" />
+            <element signature="e#17024#17025#0" expanded="true" />
+            <element signature="e#17058#17059#0" expanded="true" />
+            <element signature="e#17098#17099#0" expanded="true" />
+            <element signature="e#17132#17133#0" expanded="true" />
+            <element signature="e#17173#17174#0" expanded="true" />
           </folding>
         </state>
       </provider>

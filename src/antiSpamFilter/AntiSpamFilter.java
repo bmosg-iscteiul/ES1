@@ -21,6 +21,8 @@ public class AntiSpamFilter {
         showGUI();
     }
 
+    /*------------------------------------------------ GUI Functions -------------------------------------------------*/
+
     private void initGUI() {
         gui = new GUI();
     }
@@ -54,7 +56,23 @@ public class AntiSpamFilter {
         });
     }
 
+    /*--------------------------------------------------- Run Modes --------------------------------------------------*/
+
+    public void runManual() {
+        //TODO
+    }
+
+    public void runAuto() {
+        //TODO
+    }
+
+
+
+    /*----------------------------------------------------- Main -----------------------------------------------------*/
+
     public static void main(String[] args){
         AntiSpamFilter.getInstance();
     }
+
+
 }

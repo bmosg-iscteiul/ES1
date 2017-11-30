@@ -5,8 +5,11 @@
  */
 package antiSpamFilter.gui;
 
+import antiSpamFilter.AntiSpamFilter;
+
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
+import java.awt.*;
 
 /**
  * This is our take on a simple Graphical User Interface
@@ -24,6 +27,8 @@ public class GUI extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
         setResizable(false);
+
+        RulesPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\rules.cf");
     }
 
     /**
@@ -62,6 +67,11 @@ public class GUI extends javax.swing.JFrame {
         setResizable(false);
 
         Start.setText("Start");
+        Start.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                StartActionPerformed(evt);
+            }
+        });
 
         ModeRadioGroup.add(ManualRadio);
         ManualRadio.setText("Manual");
@@ -281,6 +291,36 @@ public class GUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_ChangeSpamPathActionPerformed
 
+    private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
+        if(ManualRadio.isSelected() || AutoRadio.isSelected()) {
+            if (AutoRadio.isSelected())
+                AntiSpamFilter.getInstance().runAuto();
+            else
+                AntiSpamFilter.getInstance().runManual();
+        }
+        else{
+            int VIBRATION_LENGTH = 10;
+            int VIBRATION_VELOCITY = 2;
+            try {
+                Runnable runnable = (Runnable) Toolkit.getDefaultToolkit().getDesktopProperty("win.sound.exclamation");
+                if (runnable != null) runnable.run();
+                int originalX = this.getLocationOnScreen().x;
+                int originalY = this.getLocationOnScreen().y;
+                for(int i = 0; i < VIBRATION_LENGTH; i++) {
+                    Thread.sleep(10);
+                    this.setLocation(originalX + VIBRATION_VELOCITY, originalY);
+                    Thread.sleep(10);
+                    this.setLocation(originalX - VIBRATION_VELOCITY, originalY);
+                    Thread.sleep(10);
+                    this.setLocation(originalX, originalY);
+                }
+            }
+            catch (Exception err) {
+                err.printStackTrace();
+            }
+        }
+    }//GEN-LAST:event_StartActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JRadioButton AutoRadio;
     private javax.swing.JButton ChangeHamPath;
@@ -304,4 +344,16 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables
+
+    public String getRulesPath(){
+        return RulesPath.getText();
+    }
+
+    public String getHamsPath(){
+        return HamPath.getText();
+    }
+
+    public String getSpamPath(){
+        return SpamPath.getText();
+    }
 }
