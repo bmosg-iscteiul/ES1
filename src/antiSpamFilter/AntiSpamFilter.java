@@ -19,6 +19,7 @@ public class AntiSpamFilter {
     private AntiSpamFilter(){
         initGUI();
         showGUI();
+        System.out.println("Program Started");
     }
 
     /*------------------------------------------------ GUI Functions -------------------------------------------------*/

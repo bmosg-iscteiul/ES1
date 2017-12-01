@@ -10,6 +10,10 @@ import antiSpamFilter.AntiSpamFilter;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.sql.Time;
 
 /**
  * This is our take on a simple Graphical User Interface
@@ -25,6 +29,9 @@ public class GUI extends javax.swing.JFrame {
      */
     public GUI() {
         initComponents();
+
+        initConsole();
+
         setLocationRelativeTo(null);
         setResizable(false);
 
@@ -146,6 +153,7 @@ public class GUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        TableManual.setSelectionBackground(new java.awt.Color(204, 204, 204));
         jScrollPane2.setViewportView(TableManual);
 
         ManualSave.setText("Save Config");
@@ -192,6 +200,7 @@ public class GUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        TableAuto.setSelectionBackground(new java.awt.Color(204, 204, 204));
         jScrollPane4.setViewportView(TableAuto);
 
         AutoSave.setText("Save Config");
@@ -455,6 +464,7 @@ public class GUI extends javax.swing.JFrame {
         JFileChooser path_chooser = new JFileChooser();
         FileNameExtensionFilter filter = new FileNameExtensionFilter("CF Files", "cf");
         path_chooser.setFileFilter(filter);
+        path_chooser.setDialogTitle("Choose Rules File");
         int returnVal = path_chooser.showOpenDialog(this);
         if(returnVal == JFileChooser.APPROVE_OPTION) {
             RulesPath.setText(path_chooser.getSelectedFile().getPath());
@@ -465,6 +475,7 @@ public class GUI extends javax.swing.JFrame {
         JFileChooser path_chooser = new JFileChooser();
         FileNameExtensionFilter filter = new FileNameExtensionFilter("LOG File", "log");
         path_chooser.setFileFilter(filter);
+        path_chooser.setDialogTitle("Choose File");
         int returnVal = path_chooser.showOpenDialog(this);
         if(returnVal == JFileChooser.APPROVE_OPTION) {
             HamPath.setText(path_chooser.getSelectedFile().getPath());
@@ -475,6 +486,7 @@ public class GUI extends javax.swing.JFrame {
         JFileChooser path_chooser = new JFileChooser();
         FileNameExtensionFilter filter = new FileNameExtensionFilter("LOG File", "log");
         path_chooser.setFileFilter(filter);
+        path_chooser.setDialogTitle("Choose File");
         int returnVal = path_chooser.showOpenDialog(this);
         if(returnVal == JFileChooser.APPROVE_OPTION) {
             SpamPath.setText(path_chooser.getSelectedFile().getPath());
@@ -482,7 +494,13 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_ChangeSpamPathActionPerformed
 
     private void ChangeOutputPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeOutputPathActionPerformed
-        // TODO add your handling code here:
+        JFileChooser path_chooser = new JFileChooser();
+        path_chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        path_chooser.setDialogTitle("Choose Output Dir");
+        int returnVal = path_chooser.showOpenDialog(this);
+        if(returnVal == JFileChooser.APPROVE_OPTION) {
+            OutputPath.setText(path_chooser.getSelectedFile().getPath());
+        }
     }//GEN-LAST:event_ChangeOutputPathActionPerformed
 
     private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
@@ -565,5 +583,24 @@ public class GUI extends javax.swing.JFrame {
     public String getSpamPath(){
         return SpamPath.getText();
     }
+
+    private void initConsole() {
+        PrintStream console = new PrintStream(new OutputStream() {
+            public void write(int arg0) throws IOException {
+                char a = (char) arg0;
+                printSimple(a + "");
+            }
+        });
+
+        System.setOut(console);
+        System.setErr(console);
+    }
+
+
+    public void printSimple(String s) {
+        Console.append(s);
+        Console.setCaretPosition(Console.getDocument().getLength());
+    }
+
 
 }
