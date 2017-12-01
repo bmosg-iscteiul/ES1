@@ -628,7 +628,7 @@ public class GUI extends javax.swing.JFrame {
     }
 
     public void setFN(int i){
-        FP.setText(i+"");
+        FN.setText(i+"");
     }
 
     public void setManualRules(ArrayList<Rule> rules){
@@ -653,7 +653,7 @@ public class GUI extends javax.swing.JFrame {
         ArrayList<Rule> auto_rules = new ArrayList<>();
         for(int i=0; i<TableManual.getModel().getRowCount(); i++){
             String rule = (String)TableManual.getModel().getValueAt(i,0);
-            double weight = Double.parseDouble((String)TableManual.getModel().getValueAt(i,0));
+            double weight = Double.parseDouble((String)TableManual.getModel().getValueAt(i,1));
             auto_rules.add(new Rule(rule,weight));
         }
         return auto_rules;

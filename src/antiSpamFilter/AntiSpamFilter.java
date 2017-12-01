@@ -4,12 +4,8 @@ import antiSpamFilter.gui.GUI;
 import antiSpamFilter.utils.Rule;
 
 import javax.swing.*;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class AntiSpamFilter {
 
@@ -113,10 +109,65 @@ public class AntiSpamFilter {
         }
     }
 
+    /*--------------------------------------------------- Evaluate ---------------------------------------------------*/
+    private double evaluateRuleWeight(String[] ruleList, ArrayList<Rule> weightedRules) {
+        double val = 0.0;
+        for(int i = 1; i < ruleList.length; i++) {
+            String rule = ruleList[i];
+            for(Rule r : weightedRules) {
+                if(r.getRule().equals(rule)) {
+                    val += r.getWeight();
+                    break;
+                }
+            }
+        }
+        return val;
+    }
+
+    public int evaluateHam(ArrayList<Rule> weightedRules) {
+        int fp = 0;
+        try {
+            BufferedReader hamList = new BufferedReader(new FileReader(gui.getHamsPath()));
+            String current_line;
+            while((current_line = hamList.readLine()) != null) {
+                String[] split_line = current_line.split("\t");
+                double current_value = evaluateRuleWeight(split_line, weightedRules);
+                if(current_value >= 5)
+                    fp++;
+            }
+        } catch(FileNotFoundException e) {
+            e.printStackTrace();
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
+        return fp;
+    }
+
+    public int evaluateSpam(ArrayList<Rule> weightedRules) {
+        int fn = 0;
+        try {
+            BufferedReader hamList = new BufferedReader(new FileReader(gui.getSpamPath()));
+            String current_line;
+            while((current_line = hamList.readLine()) != null) {
+                String[] split_line = current_line.split("\t");
+                double current_value = evaluateRuleWeight(split_line, weightedRules);
+                if(current_value < 5)
+                    fn++;
+            }
+        } catch(FileNotFoundException e) {
+            e.printStackTrace();
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
+        return fn;
+    }
+
+
     /*--------------------------------------------------- Run Modes --------------------------------------------------*/
 
     public void runManual() {
-        //TODO
+        gui.setFP(evaluateHam(gui.getManualRules()));
+        gui.setFN(evaluateSpam(gui.getManualRules()));
     }
 
     public void runAuto() {
@@ -125,11 +176,13 @@ public class AntiSpamFilter {
 
 
 
+
     /*----------------------------------------------------- Main -----------------------------------------------------*/
 
     public static void main(String[] args){
         AntiSpamFilter.getInstance();
     }
+
 
 
 }
