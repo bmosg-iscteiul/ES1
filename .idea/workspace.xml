@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e40531-3f6b-4d6d-8b40-39360ab826ea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/ham(2).log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/spam.log" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" />
+      <change beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
       <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
+      <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java" />
       <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -23,25 +32,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AntiSpamFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AntiSpamFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="169" column="14" lean-forward="false" selection-start-line="169" selection-start-column="14" selection-end-line="169" selection-end-column="14" />
+            <state relative-caret-position="159">
+              <caret line="192" column="60" lean-forward="true" selection-start-line="192" selection-start-column="60" selection-end-line="192" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6402#6403#0" expanded="true" />
-                <element signature="e#6446#6447#0" expanded="true" />
+                <element signature="e#3321#3322#0" expanded="true" />
+                <element signature="e#3347#3348#0" expanded="true" />
+                <element signature="e#7006#7007#0" expanded="true" />
+                <element signature="e#7073#7074#0" expanded="true" />
+                <element signature="e#7243#7244#0" expanded="true" />
+                <element signature="e#7287#7288#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AntiSpamFilterProblem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/utils/Rule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding>
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="629" column="29" lean-forward="false" selection-start-line="629" selection-start-column="29" selection-end-line="629" selection-end-column="29" />
+            <state relative-caret-position="432">
+              <caret line="665" column="90" lean-forward="false" selection-start-line="665" selection-start-column="90" selection-end-line="665" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1593#1682#0" expanded="true" />
@@ -53,6 +91,7 @@
                 <element signature="e#8202#8203#0" expanded="true" />
                 <element signature="e#8278#8279#0" expanded="true" />
                 <element signature="e#8338#8339#0" expanded="true" />
+                <element signature="e#29973#29974#0" expanded="true" />
                 <element signature="e#30005#30006#0" expanded="true" />
               </folding>
             </state>
@@ -62,9 +101,11 @@
       <file leaf-file-name="AntiSpamFilterAutomaticConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="43" column="83" lean-forward="false" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
-              <folding />
+            <state relative-caret-position="329">
+              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,6 +127,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="André Sousa &lt;afssa11111@iscte-iul.pt&gt;" />
         <option value="Rafael Fernandes &lt;crscf@iscte-iul.pt&gt;" />
       </list>
     </option>
@@ -101,8 +143,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/antiSpamFilter/utils/Rules.java" />
         <option value="$PROJECT_DIR$/src/antiSpamFilter/utils/Rule.java" />
-        <option value="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
         <option value="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" />
+        <option value="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java" />
+        <option value="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
       </list>
     </option>
   </component>
@@ -529,11 +573,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512146685031</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changes:&#10;Small Bugfixes&#10;Added ham and spam file to git&#10;Implemented evaluate methods">
+      <created>1512154115226</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512154115226</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26193000" />
+    <option name="totallyTimeSpent" value="27556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -604,7 +655,8 @@
     <MESSAGE value="Changes:&#10;Made Table for Rule Weight selection (Manual mode)&#10;Added Button to generate random values (Manual mode)&#10;Added Button to save current config (Manual mode)&#10;Made Table for Rule Weight viewing (Auto mode)&#10;Added Button to save current config (Auto mode)&#10;Added FP and FN Labels for viewing values&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
     <MESSAGE value="Changes:&#10;Made Console for debug/troubleshooting/info prints&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc" />
     <MESSAGE value="Changes:&#10;Made setters for FN and FP values in GUI&#10;Made Auto change mode view at Button Start click&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;Made setters for FN and FP values in GUI&#10;Made Auto change mode view at Button Start click&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc" />
+    <MESSAGE value="Changes:&#10;Small Bugfixes&#10;Added ham and spam file to git&#10;Implemented evaluate methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;Small Bugfixes&#10;Added ham and spam file to git&#10;Implemented evaluate methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -619,8 +671,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6402#6403#0" expanded="true" />
-            <element signature="e#6446#6447#0" expanded="true" />
+            <element signature="e#3321#3322#0" expanded="true" />
+            <element signature="e#3347#3348#0" expanded="true" />
+            <element signature="e#7006#7007#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
+            <element signature="e#7243#7244#0" expanded="true" />
+            <element signature="e#7287#7288#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,8 +687,12 @@
           <caret line="70" column="120" lean-forward="true" selection-start-line="70" selection-start-column="120" selection-end-line="70" selection-end-column="120" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6402#6403#0" expanded="true" />
-            <element signature="e#6446#6447#0" expanded="true" />
+            <element signature="e#3321#3322#0" expanded="true" />
+            <element signature="e#3347#3348#0" expanded="true" />
+            <element signature="e#7006#7007#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
+            <element signature="e#7243#7244#0" expanded="true" />
+            <element signature="e#7287#7288#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,6 +712,7 @@
             <element signature="e#8202#8203#0" expanded="true" />
             <element signature="e#8278#8279#0" expanded="true" />
             <element signature="e#8338#8339#0" expanded="true" />
+            <element signature="e#29973#29974#0" expanded="true" />
             <element signature="e#30005#30006#0" expanded="true" />
           </folding>
         </state>
@@ -737,6 +798,7 @@
             <element signature="e#8202#8203#0" expanded="true" />
             <element signature="e#8278#8279#0" expanded="true" />
             <element signature="e#8338#8339#0" expanded="true" />
+            <element signature="e#29973#29974#0" expanded="true" />
             <element signature="e#30005#30006#0" expanded="true" />
           </folding>
         </state>
@@ -748,8 +810,12 @@
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6402#6403#0" expanded="true" />
-            <element signature="e#6446#6447#0" expanded="true" />
+            <element signature="e#3321#3322#0" expanded="true" />
+            <element signature="e#3347#3348#0" expanded="true" />
+            <element signature="e#7006#7007#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
+            <element signature="e#7243#7244#0" expanded="true" />
+            <element signature="e#7287#7288#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,7 +824,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -768,8 +836,12 @@
           <caret line="70" column="120" lean-forward="true" selection-start-line="70" selection-start-column="120" selection-end-line="70" selection-end-column="120" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6402#6403#0" expanded="true" />
-            <element signature="e#6446#6447#0" expanded="true" />
+            <element signature="e#3321#3322#0" expanded="true" />
+            <element signature="e#3347#3348#0" expanded="true" />
+            <element signature="e#7006#7007#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
+            <element signature="e#7243#7244#0" expanded="true" />
+            <element signature="e#7287#7288#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -789,6 +861,7 @@
             <element signature="e#8202#8203#0" expanded="true" />
             <element signature="e#8278#8279#0" expanded="true" />
             <element signature="e#8338#8339#0" expanded="true" />
+            <element signature="e#29973#29974#0" expanded="true" />
             <element signature="e#30005#30006#0" expanded="true" />
           </folding>
         </state>
@@ -798,7 +871,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -814,7 +889,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -822,7 +899,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -848,14 +927,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/config/config.json" />
-    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/swing/ButtonGroup.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/swing/JToggleButton.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/swing/JRadioButton.java" />
@@ -871,8 +942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/utils/Rule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding>
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#269#270#0" expanded="true" />
@@ -882,30 +953,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="43" column="83" lean-forward="false" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="169" column="14" lean-forward="false" selection-start-line="169" selection-start-column="14" selection-end-line="169" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6402#6403#0" expanded="true" />
-            <element signature="e#6446#6447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="629" column="29" lean-forward="false" selection-start-line="629" selection-start-column="29" selection-end-line="629" selection-end-column="29" />
+        <state relative-caret-position="432">
+          <caret line="665" column="90" lean-forward="false" selection-start-line="665" selection-start-column="90" selection-end-line="665" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1593#1682#0" expanded="true" />
@@ -917,7 +968,42 @@
             <element signature="e#8202#8203#0" expanded="true" />
             <element signature="e#8278#8279#0" expanded="true" />
             <element signature="e#8338#8339#0" expanded="true" />
+            <element signature="e#29973#29974#0" expanded="true" />
             <element signature="e#30005#30006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="192" column="60" lean-forward="true" selection-start-line="192" selection-start-column="60" selection-end-line="192" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3321#3322#0" expanded="true" />
+            <element signature="e#3347#3348#0" expanded="true" />
+            <element signature="e#7006#7007#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
+            <element signature="e#7243#7244#0" expanded="true" />
+            <element signature="e#7287#7288#0" expanded="true" />
           </folding>
         </state>
       </provider>

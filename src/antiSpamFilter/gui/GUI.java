@@ -663,7 +663,7 @@ public class GUI extends javax.swing.JFrame {
         ArrayList<Rule> auto_rules = new ArrayList<>();
         for(int i=0; i<TableAuto.getModel().getRowCount(); i++){
             String rule = (String)TableAuto.getModel().getValueAt(i,0);
-            double weight = Double.parseDouble((String)TableAuto.getModel().getValueAt(i,0));
+            double weight = Double.parseDouble((String)TableAuto.getModel().getValueAt(i,1));
             auto_rules.add(new Rule(rule,weight));
         }
         return auto_rules;
