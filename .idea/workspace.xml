@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f3e40531-3f6b-4d6d-8b40-39360ab826ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.form" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" />
     </list>
@@ -38,26 +37,38 @@
       <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="587" column="66" lean-forward="true" selection-start-line="587" selection-start-column="66" selection-end-line="587" selection-end-column="66" />
+            <state relative-caret-position="187">
+              <caret line="508" column="45" lean-forward="false" selection-start-line="508" selection-start-column="45" selection-end-line="508" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#StartActionPerformed#0;class#GUI#0" expanded="false" />
-                <element signature="e#28615#28616#0" expanded="true" />
-                <element signature="e#28656#28657#0" expanded="true" />
-                <element signature="e#28917#28918#0" expanded="true" />
-                <marker date="1512146069748" expanded="false" signature="11474:11493" ph=" { " />
-                <marker date="1512146069748" expanded="false" signature="11528:11542" ph=" }" />
-                <marker date="1512146069748" expanded="false" signature="11955:11974" ph=" { " />
-                <marker date="1512146069748" expanded="false" signature="12008:12022" ph=" }" />
-                <marker date="1512146069748" expanded="false" signature="12445:12464" ph=" { " />
-                <marker date="1512146069748" expanded="false" signature="12500:12514" ph=" }" />
-                <marker date="1512146069748" expanded="false" signature="16826:16845" ph=" { " />
-                <marker date="1512146069748" expanded="false" signature="16882:16896" ph=" }" />
-                <marker date="1512146069748" expanded="false" signature="28465:28475" ph=" { " />
-                <marker date="1512146069748" expanded="false" signature="28502:28508" ph=" }" />
-                <marker date="1512146069748" expanded="false" signature="28541:28551" ph=" { " />
-                <marker date="1512146069748" expanded="false" signature="28576:28582" ph=" }" />
+                <element signature="e#2696#2855#0" expanded="true" />
+                <element signature="e#2854#2855#0" expanded="true" />
+                <element signature="e#3085#3238#0" expanded="true" />
+                <element signature="e#3237#3238#0" expanded="true" />
+                <element signature="e#4730#4731#0" expanded="true" />
+                <element signature="e#4787#4788#0" expanded="true" />
+                <element signature="e#5030#5031#0" expanded="true" />
+                <element signature="e#5093#5094#0" expanded="true" />
+                <element signature="e#11457#11458#0" expanded="true" />
+                <element signature="e#11523#11524#0" expanded="true" />
+                <element signature="e#11938#11939#0" expanded="true" />
+                <element signature="e#12003#12004#0" expanded="true" />
+                <element signature="e#12428#12429#0" expanded="true" />
+                <element signature="e#12495#12496#0" expanded="true" />
+                <element signature="e#16809#16810#0" expanded="true" />
+                <element signature="e#16877#16878#0" expanded="true" />
+                <element signature="e#28978#29158#0" expanded="true" />
+                <element signature="e#29157#29158#0" expanded="true" />
+                <marker date="1512146577559" expanded="false" signature="28579:28589" ph=" { " />
+                <marker date="1512146577559" expanded="false" signature="28616:28622" ph=" }" />
+                <marker date="1512146577559" expanded="false" signature="28655:28665" ph=" { " />
+                <marker date="1512146577559" expanded="false" signature="28690:28696" ph=" }" />
+                <marker date="1512146577559" expanded="false" signature="28729:28739" ph=" { " />
+                <marker date="1512146577559" expanded="false" signature="28765:28771" ph=" }" />
+                <marker date="1512146577559" expanded="false" signature="28801:28811" ph=" { " />
+                <marker date="1512146577559" expanded="false" signature="28828:28834" ph=" }" />
+                <marker date="1512146577559" expanded="false" signature="28864:28874" ph=" { " />
+                <marker date="1512146577559" expanded="false" signature="28891:28897" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -331,7 +342,7 @@
       <workItem from="1510329669938" duration="15000" />
       <workItem from="1511953563024" duration="813000" />
       <workItem from="1512070862602" duration="7787000" />
-      <workItem from="1512133941238" duration="9285000" />
+      <workItem from="1512133941238" duration="9778000" />
     </task>
     <task id="LOCAL-00001" summary="Final support for IntelliJ and NetBeans added">
       <created>1510323590702</created>
@@ -375,11 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512144481477</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changes:&#10;Made Console for debug/troubleshooting/info prints&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc">
+      <created>1512146126824</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512146126824</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18968000" />
+    <option name="totallyTimeSpent" value="19461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -428,7 +446,8 @@
     <MESSAGE value="Changes:&#10;Start button now working(With RadioButtons for mode, Animation will be played if no mode is choosen)&#10;&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
     <MESSAGE value="Changes:&#10;Made Table for Rule Weight selection (Manual mode)&#10;Added Button to generate random values (Manual mode)&#10;Added Button to save current config (Manual mode)&#10;&#10;&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
     <MESSAGE value="Changes:&#10;Made Table for Rule Weight selection (Manual mode)&#10;Added Button to generate random values (Manual mode)&#10;Added Button to save current config (Manual mode)&#10;Made Table for Rule Weight viewing (Auto mode)&#10;Added Button to save current config (Auto mode)&#10;Added FP and FN Labels for viewing values&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;Made Table for Rule Weight selection (Manual mode)&#10;Added Button to generate random values (Manual mode)&#10;Added Button to save current config (Manual mode)&#10;Made Table for Rule Weight viewing (Auto mode)&#10;Added Button to save current config (Auto mode)&#10;Added FP and FN Labels for viewing values&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
+    <MESSAGE value="Changes:&#10;Made Console for debug/troubleshooting/info prints&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;Made Console for debug/troubleshooting/info prints&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -454,22 +473,34 @@
           <caret line="321" column="42" lean-forward="true" selection-start-line="321" selection-start-column="42" selection-end-line="321" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#StartActionPerformed#0;class#GUI#0" expanded="false" />
-            <element signature="e#28615#28616#0" expanded="true" />
-            <element signature="e#28656#28657#0" expanded="true" />
-            <element signature="e#28917#28918#0" expanded="true" />
-            <marker date="1512146069748" expanded="false" signature="11474:11493" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="11528:11542" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="11955:11974" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="12008:12022" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="12445:12464" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="12500:12514" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="16826:16845" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="16882:16896" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="28465:28475" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="28502:28508" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="28541:28551" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="28576:28582" ph=" }" />
+            <element signature="e#2696#2855#0" expanded="true" />
+            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#3085#3238#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#4730#4731#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#5030#5031#0" expanded="true" />
+            <element signature="e#5093#5094#0" expanded="true" />
+            <element signature="e#11457#11458#0" expanded="true" />
+            <element signature="e#11523#11524#0" expanded="true" />
+            <element signature="e#11938#11939#0" expanded="true" />
+            <element signature="e#12003#12004#0" expanded="true" />
+            <element signature="e#12428#12429#0" expanded="true" />
+            <element signature="e#12495#12496#0" expanded="true" />
+            <element signature="e#16809#16810#0" expanded="true" />
+            <element signature="e#16877#16878#0" expanded="true" />
+            <element signature="e#28978#29158#0" expanded="true" />
+            <element signature="e#29157#29158#0" expanded="true" />
+            <marker date="1512146577559" expanded="false" signature="28579:28589" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28616:28622" ph=" }" />
+            <marker date="1512146577559" expanded="false" signature="28655:28665" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28690:28696" ph=" }" />
+            <marker date="1512146577559" expanded="false" signature="28729:28739" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28765:28771" ph=" }" />
+            <marker date="1512146577559" expanded="false" signature="28801:28811" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28828:28834" ph=" }" />
+            <marker date="1512146577559" expanded="false" signature="28864:28874" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28891:28897" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -593,26 +624,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="587" column="66" lean-forward="true" selection-start-line="587" selection-start-column="66" selection-end-line="587" selection-end-column="66" />
+        <state relative-caret-position="187">
+          <caret line="508" column="45" lean-forward="false" selection-start-line="508" selection-start-column="45" selection-end-line="508" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#StartActionPerformed#0;class#GUI#0" expanded="false" />
-            <element signature="e#28615#28616#0" expanded="true" />
-            <element signature="e#28656#28657#0" expanded="true" />
-            <element signature="e#28917#28918#0" expanded="true" />
-            <marker date="1512146069748" expanded="false" signature="11474:11493" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="11528:11542" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="11955:11974" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="12008:12022" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="12445:12464" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="12500:12514" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="16826:16845" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="16882:16896" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="28465:28475" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="28502:28508" ph=" }" />
-            <marker date="1512146069748" expanded="false" signature="28541:28551" ph=" { " />
-            <marker date="1512146069748" expanded="false" signature="28576:28582" ph=" }" />
+            <element signature="e#2696#2855#0" expanded="true" />
+            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#3085#3238#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#4730#4731#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#5030#5031#0" expanded="true" />
+            <element signature="e#5093#5094#0" expanded="true" />
+            <element signature="e#11457#11458#0" expanded="true" />
+            <element signature="e#11523#11524#0" expanded="true" />
+            <element signature="e#11938#11939#0" expanded="true" />
+            <element signature="e#12003#12004#0" expanded="true" />
+            <element signature="e#12428#12429#0" expanded="true" />
+            <element signature="e#12495#12496#0" expanded="true" />
+            <element signature="e#16809#16810#0" expanded="true" />
+            <element signature="e#16877#16878#0" expanded="true" />
+            <element signature="e#28978#29158#0" expanded="true" />
+            <element signature="e#29157#29158#0" expanded="true" />
+            <marker date="1512146577559" expanded="false" signature="28579:28589" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28616:28622" ph=" }" />
+            <marker date="1512146577559" expanded="false" signature="28655:28665" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28690:28696" ph=" }" />
+            <marker date="1512146577559" expanded="false" signature="28729:28739" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28765:28771" ph=" }" />
+            <marker date="1512146577559" expanded="false" signature="28801:28811" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28828:28834" ph=" }" />
+            <marker date="1512146577559" expanded="false" signature="28864:28874" ph=" { " />
+            <marker date="1512146577559" expanded="false" signature="28891:28897" ph=" }" />
           </folding>
         </state>
       </provider>

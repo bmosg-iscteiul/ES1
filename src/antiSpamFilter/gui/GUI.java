@@ -74,7 +74,7 @@ public class GUI extends javax.swing.JFrame {
         Start = new javax.swing.JToggleButton();
         ManualRadio = new javax.swing.JRadioButton();
         AutoRadio = new javax.swing.JRadioButton();
-        jTabbedPane1 = new javax.swing.JTabbedPane();
+        TabbedPane = new javax.swing.JTabbedPane();
         ManualMode = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         TableManual = new JTable(){
@@ -113,10 +113,10 @@ public class GUI extends javax.swing.JFrame {
         OutputPanel = new javax.swing.JPanel();
         OutputPath = new javax.swing.JTextField();
         ChangeOutputPath = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        FP = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        FN = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Anti Spam Filter");
@@ -187,7 +187,7 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Manual Mode", ManualMode);
+        TabbedPane.addTab("Manual Mode", ManualMode);
 
         TableAuto.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -232,7 +232,7 @@ public class GUI extends javax.swing.JFrame {
                     .addGap(40, 40, 40)))
         );
 
-        jTabbedPane1.addTab("Auto Mode", AutoMode);
+        TabbedPane.addTab("Auto Mode", AutoMode);
 
         Console.setEditable(false);
         Console.setColumns(20);
@@ -256,7 +256,7 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Console", ConsolePanel);
+        TabbedPane.addTab("Console", ConsolePanel);
 
         InputPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Input Files"));
 
@@ -397,17 +397,17 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap(265, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Path Config", PathPanel);
+        TabbedPane.addTab("Path Config", PathPanel);
 
-        jTabbedPane1.setSelectedIndex(3);
-
-        jLabel1.setText("0");
+        TabbedPane.setSelectedIndex(3);
 
         jLabel2.setText("FN:");
 
-        jLabel4.setText("0");
+        FP.setText("0");
 
         jLabel5.setText("FP");
+
+        FN.setText("0");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -416,7 +416,7 @@ public class GUI extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTabbedPane1)
+                    .addComponent(TabbedPane)
                     .addComponent(ProgressBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(ManualRadio)
@@ -425,11 +425,11 @@ public class GUI extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel4)
+                        .addComponent(FP)
                         .addGap(18, 18, 18)
                         .addComponent(jLabel2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel1)
+                        .addComponent(FN)
                         .addGap(18, 18, 18)
                         .addComponent(Start, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
@@ -438,15 +438,15 @@ public class GUI extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane1)
+                .addComponent(TabbedPane)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Start)
                     .addComponent(ManualRadio)
                     .addComponent(AutoRadio)
-                    .addComponent(jLabel1)
+                    .addComponent(FN)
                     .addComponent(jLabel2)
-                    .addComponent(jLabel4)
+                    .addComponent(FP)
                     .addComponent(jLabel5))
                 .addGap(8, 8, 8)
                 .addComponent(ProgressBar, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -505,10 +505,16 @@ public class GUI extends javax.swing.JFrame {
 
     private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
         if(ManualRadio.isSelected() || AutoRadio.isSelected()) {
-            if (AutoRadio.isSelected())
+            if (AutoRadio.isSelected()) {
+                TabbedPane.setSelectedIndex(1);
+                repaint();
                 AntiSpamFilter.getInstance().runAuto();
-            else
+            }
+            else {
+                TabbedPane.setSelectedIndex(0);
+                repaint();
                 AntiSpamFilter.getInstance().runManual();
+            }
         }
         else{
             int VIBRATION_LENGTH = 10;
@@ -543,6 +549,8 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JButton ChangeSpamPath;
     private javax.swing.JTextArea Console;
     private javax.swing.JPanel ConsolePanel;
+    private javax.swing.JLabel FN;
+    private javax.swing.JLabel FP;
     private javax.swing.JButton GenerateRandom;
     private javax.swing.JLabel HamJLabel;
     private javax.swing.JTextField HamPath;
@@ -560,16 +568,14 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JLabel SpamJLabel;
     private javax.swing.JTextField SpamPath;
     private javax.swing.JToggleButton Start;
+    private javax.swing.JTabbedPane TabbedPane;
     private javax.swing.JTable TableAuto;
     private javax.swing.JTable TableManual;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JTabbedPane jTabbedPane1;
     // End of variables declaration//GEN-END:variables
 
     public String getRulesPath(){
@@ -584,6 +590,14 @@ public class GUI extends javax.swing.JFrame {
         return SpamPath.getText();
     }
 
+    public void setFP(int i){
+        FP.setText(i+"");
+    }
+
+    public void setFN(int i){
+        FP.setText(i+"");
+    }
+
     private void initConsole() {
         PrintStream console = new PrintStream(new OutputStream() {
             public void write(int arg0) throws IOException {
@@ -596,11 +610,9 @@ public class GUI extends javax.swing.JFrame {
         System.setErr(console);
     }
 
-
     public void printSimple(String s) {
         Console.append(s);
         Console.setCaretPosition(Console.getDocument().getLength());
     }
-
 
 }
