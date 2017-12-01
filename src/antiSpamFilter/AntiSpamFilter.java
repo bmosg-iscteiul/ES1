@@ -1,8 +1,15 @@
 package antiSpamFilter;
 
 import antiSpamFilter.gui.GUI;
+import antiSpamFilter.utils.Rule;
 
 import javax.swing.*;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class AntiSpamFilter {
 
@@ -19,6 +26,7 @@ public class AntiSpamFilter {
     private AntiSpamFilter(){
         initGUI();
         showGUI();
+        loadRules();
         System.out.println("Program Started");
     }
 
@@ -55,6 +63,54 @@ public class AntiSpamFilter {
                 SwingUtilities.updateComponentTreeUI(gui);
             }
         });
+    }
+
+    /*--------------------------------------------------- Getters ----------------------------------------------------*/
+
+    public ArrayList<Rule> getRules(){
+        if(gui.getMode()==GUI.Manual)
+            return gui.getManualRules();
+        if(gui.getMode()==GUI.Auto)
+            return gui.getAutoRules();
+        return null;
+    }
+
+    /*------------------------------------------------------ IO ------------------------------------------------------*/
+
+    public int countRules() {
+        int count =0;
+        try {
+            BufferedReader rulesReader = new BufferedReader(new FileReader(gui.getRulesPath()));
+            while (rulesReader.readLine()!=null){
+                count++;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return count;
+    }
+
+    public void loadRules() {
+        ArrayList<Rule> manual_rules = new ArrayList<>();
+        ArrayList<Rule> auto_rules = new ArrayList<>();
+        try {
+            BufferedReader rulesReader = new BufferedReader(new FileReader(gui.getRulesPath()));
+            for (int i = 0; i <countRules(); i++) {
+                String[] text = rulesReader.readLine().split("\t");
+                if(text.length!=1) {
+                    manual_rules.add(new Rule(text[0], Double.parseDouble(text[1])));
+                    auto_rules.add(new Rule(text[0], Double.parseDouble(text[1])));
+                }
+                else {
+                    manual_rules.add(new Rule(text[0], 0));
+                    auto_rules.add(new Rule(text[0], 0));
+                }
+            }
+            gui.setManualRules(manual_rules);
+            gui.setAutoRules(auto_rules);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /*--------------------------------------------------- Run Modes --------------------------------------------------*/

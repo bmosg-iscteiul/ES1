@@ -6,14 +6,18 @@
 package antiSpamFilter.gui;
 
 import antiSpamFilter.AntiSpamFilter;
+import antiSpamFilter.utils.Rule;
 
+import javax.print.attribute.standard.MediaSize;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
-import java.sql.Time;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * This is our take on a simple Graphical User Interface
@@ -37,26 +41,7 @@ public class GUI extends javax.swing.JFrame {
 
         RulesPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\rules.cf");
         OutputPath.setText(System.getProperty("user.dir")+"\\experimentBaseDirectory");
-
-        TableManual.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-                        {null, null},
-                        {null, null},
-                        {null, null},
-                        {null, null},
-                },
-                new String [] {"Rules", "Weight"}
-        ));
         TableManual.getTableHeader().setReorderingAllowed(false);
-        TableAuto.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-                        {null, null},
-                        {null, null},
-                        {null, null},
-                        {null, null},
-                },
-                new String [] {"Rules", "Weight"}
-        ));
         TableAuto.getTableHeader().setReorderingAllowed(false);
     }
 
@@ -77,24 +62,12 @@ public class GUI extends javax.swing.JFrame {
         TabbedPane = new javax.swing.JTabbedPane();
         ManualMode = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        TableManual = new JTable(){
-            @Override
-            public boolean isCellEditable(int row, int column){
-                return column != 0;
-            }
-        }
-        ;
+        TableManual = new javax.swing.JTable();
         ManualSave = new javax.swing.JButton();
         GenerateRandom = new javax.swing.JButton();
         AutoMode = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
-        TableAuto = new JTable(){
-            @Override
-            public boolean isCellEditable(int row, int column){
-                return false;
-            }
-        }
-        ;
+        TableAuto = new javax.swing.JTable();
         AutoSave = new javax.swing.JButton();
         ConsolePanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -144,21 +117,47 @@ public class GUI extends javax.swing.JFrame {
 
         TableManual.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Rules", "Weight"
             }
-        ));
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.Double.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         TableManual.setSelectionBackground(new java.awt.Color(204, 204, 204));
         jScrollPane2.setViewportView(TableManual);
 
         ManualSave.setText("Save Config");
 
         GenerateRandom.setText("Generate Ramdom Configuration");
+        GenerateRandom.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                GenerateRandomActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ManualModeLayout = new javax.swing.GroupLayout(ManualMode);
         ManualMode.setLayout(ManualModeLayout);
@@ -191,15 +190,30 @@ public class GUI extends javax.swing.JFrame {
 
         TableAuto.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Rules", "Weight"
             }
-        ));
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.Double.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         TableAuto.setSelectionBackground(new java.awt.Color(204, 204, 204));
         jScrollPane4.setViewportView(TableAuto);
 
@@ -468,6 +482,7 @@ public class GUI extends javax.swing.JFrame {
         int returnVal = path_chooser.showOpenDialog(this);
         if(returnVal == JFileChooser.APPROVE_OPTION) {
             RulesPath.setText(path_chooser.getSelectedFile().getPath());
+            AntiSpamFilter.getInstance().loadRules();
         }
     }//GEN-LAST:event_ChangeRulesPathActionPerformed
 
@@ -502,6 +517,13 @@ public class GUI extends javax.swing.JFrame {
             OutputPath.setText(path_chooser.getSelectedFile().getPath());
         }
     }//GEN-LAST:event_ChangeOutputPathActionPerformed
+
+    private void GenerateRandomActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GenerateRandomActionPerformed
+        ArrayList<Rule> auto_rules = new ArrayList<>();
+        for(int i=0; i<TableManual.getModel().getRowCount(); i++){
+            TableManual.getModel().setValueAt(String.valueOf((Math.random()*10)-5) ,i ,1);
+        }
+    }//GEN-LAST:event_GenerateRandomActionPerformed
 
     private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
         if(ManualRadio.isSelected() || AutoRadio.isSelected()) {
@@ -578,6 +600,17 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane4;
     // End of variables declaration//GEN-END:variables
 
+    public static final int Manual =1;
+    public static final int Auto =2;
+
+    public int getMode(){
+        if(AutoRadio.isSelected())
+            return 2;
+        if(ManualRadio.isSelected())
+            return 1;
+        return 0;
+    }
+
     public String getRulesPath(){
         return RulesPath.getText();
     }
@@ -597,6 +630,45 @@ public class GUI extends javax.swing.JFrame {
     public void setFN(int i){
         FP.setText(i+"");
     }
+
+    public void setManualRules(ArrayList<Rule> rules){
+        String rules_string [][] = new String [rules.size()][2];
+        for(int i=0; i<rules.size(); i++) {
+            rules_string [i][0] = rules.get(i).getRule();
+            rules_string [i][1] = String.valueOf(rules.get(i).getWeight());
+        }
+        TableManual.setModel(new javax.swing.table.DefaultTableModel(rules_string,new String [] {"Rules", "Weight"}));
+    }
+
+    public void setAutoRules(ArrayList<Rule> rules){
+        String rules_string [][] = new String [rules.size()][2];
+        for(int i=0; i<rules.size(); i++) {
+            rules_string [i][0] = rules.get(i).getRule();
+            rules_string [i][1] = String.valueOf(rules.get(i).getWeight());
+        }
+        TableAuto.setModel(new javax.swing.table.DefaultTableModel(rules_string,new String [] {"Rules", "Weight"}));
+    }
+
+    public ArrayList<Rule> getManualRules(){
+        ArrayList<Rule> auto_rules = new ArrayList<>();
+        for(int i=0; i<TableManual.getModel().getRowCount(); i++){
+            String rule = (String)TableManual.getModel().getValueAt(i,0);
+            double weight = Double.parseDouble((String)TableManual.getModel().getValueAt(i,0));
+            auto_rules.add(new Rule(rule,weight));
+        }
+        return auto_rules;
+    }
+
+    public ArrayList<Rule> getAutoRules(){
+        ArrayList<Rule> auto_rules = new ArrayList<>();
+        for(int i=0; i<TableAuto.getModel().getRowCount(); i++){
+            String rule = (String)TableAuto.getModel().getValueAt(i,0);
+            double weight = Double.parseDouble((String)TableAuto.getModel().getValueAt(i,0));
+            auto_rules.add(new Rule(rule,weight));
+        }
+        return auto_rules;
+    }
+
 
     private void initConsole() {
         PrintStream console = new PrintStream(new OutputStream() {

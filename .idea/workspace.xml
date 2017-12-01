@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e40531-3f6b-4d6d-8b40-39360ab826ea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/rules.cf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/antiSpamFilter/utils/Rule.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.form" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" />
     </list>
@@ -24,11 +27,30 @@
       <file leaf-file-name="AntiSpamFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="1156">
+              <caret line="108" column="45" lean-forward="true" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="n#!!doc;n#instance#0;n#AntiSpamFilter#0" expanded="true" />
                 <element signature="method#showGUI#0;class#AntiSpamFilter#0" expanded="false" />
+                <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
+                <element signature="e#4502#4503#0" expanded="true" />
+                <element signature="e#4546#4547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/utils/Rule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,38 +59,45 @@
       <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="508" column="45" lean-forward="false" selection-start-line="508" selection-start-column="45" selection-end-line="508" selection-end-column="45" />
+            <state relative-caret-position="-164">
+              <caret line="631" column="5" lean-forward="true" selection-start-line="631" selection-start-column="5" selection-end-line="631" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2696#2855#0" expanded="true" />
-                <element signature="e#2854#2855#0" expanded="true" />
-                <element signature="e#3085#3238#0" expanded="true" />
-                <element signature="e#3237#3238#0" expanded="true" />
-                <element signature="e#4730#4731#0" expanded="true" />
-                <element signature="e#4787#4788#0" expanded="true" />
-                <element signature="e#5030#5031#0" expanded="true" />
-                <element signature="e#5093#5094#0" expanded="true" />
-                <element signature="e#11457#11458#0" expanded="true" />
-                <element signature="e#11523#11524#0" expanded="true" />
-                <element signature="e#11938#11939#0" expanded="true" />
-                <element signature="e#12003#12004#0" expanded="true" />
-                <element signature="e#12428#12429#0" expanded="true" />
-                <element signature="e#12495#12496#0" expanded="true" />
-                <element signature="e#16809#16810#0" expanded="true" />
-                <element signature="e#16877#16878#0" expanded="true" />
-                <element signature="e#28978#29158#0" expanded="true" />
-                <element signature="e#29157#29158#0" expanded="true" />
-                <marker date="1512146577559" expanded="false" signature="28579:28589" ph=" { " />
-                <marker date="1512146577559" expanded="false" signature="28616:28622" ph=" }" />
-                <marker date="1512146577559" expanded="false" signature="28655:28665" ph=" { " />
-                <marker date="1512146577559" expanded="false" signature="28690:28696" ph=" }" />
-                <marker date="1512146577559" expanded="false" signature="28729:28739" ph=" { " />
-                <marker date="1512146577559" expanded="false" signature="28765:28771" ph=" }" />
-                <marker date="1512146577559" expanded="false" signature="28801:28811" ph=" { " />
-                <marker date="1512146577559" expanded="false" signature="28828:28834" ph=" }" />
-                <marker date="1512146577559" expanded="false" signature="28864:28874" ph=" { " />
-                <marker date="1512146577559" expanded="false" signature="28891:28897" ph=" }" />
+                <element signature="e#1593#1682#0" expanded="true" />
+                <element signature="e#3912#3913#0" expanded="true" />
+                <element signature="e#3969#3970#0" expanded="true" />
+                <element signature="e#4212#4213#0" expanded="true" />
+                <element signature="e#4275#4276#0" expanded="true" />
+                <element signature="e#5138#5139#0" expanded="true" />
+                <element signature="e#5196#5197#0" expanded="true" />
+                <element signature="e#5272#5273#0" expanded="true" />
+                <element signature="e#5332#5333#0" expanded="true" />
+                <element signature="e#5737#5738#0" expanded="true" />
+                <element signature="e#5803#5804#0" expanded="true" />
+                <element signature="e#8144#8145#0" expanded="true" />
+                <element signature="e#8202#8203#0" expanded="true" />
+                <element signature="e#8278#8279#0" expanded="true" />
+                <element signature="e#8338#8339#0" expanded="true" />
+                <element signature="e#11863#11864#0" expanded="true" />
+                <element signature="e#11929#11930#0" expanded="true" />
+                <element signature="e#12344#12345#0" expanded="true" />
+                <element signature="e#12409#12410#0" expanded="true" />
+                <element signature="e#12834#12835#0" expanded="true" />
+                <element signature="e#12901#12902#0" expanded="true" />
+                <element signature="e#17215#17216#0" expanded="true" />
+                <element signature="e#17283#17284#0" expanded="true" />
+                <element signature="e#31810#31990#0" expanded="true" />
+                <element signature="e#31989#31990#0" expanded="true" />
+                <marker date="1512152033732" expanded="false" signature="29688:29698" ph=" { " />
+                <marker date="1512152033732" expanded="false" signature="29725:29731" ph=" }" />
+                <marker date="1512152033732" expanded="false" signature="29764:29774" ph=" { " />
+                <marker date="1512152033732" expanded="false" signature="29799:29805" ph=" }" />
+                <marker date="1512152033732" expanded="false" signature="29838:29848" ph=" { " />
+                <marker date="1512152033732" expanded="false" signature="29874:29880" ph=" }" />
+                <marker date="1512152033732" expanded="false" signature="29910:29920" ph=" { " />
+                <marker date="1512152033732" expanded="false" signature="29937:29943" ph=" }" />
+                <marker date="1512152033732" expanded="false" signature="29973:29983" ph=" { " />
+                <marker date="1512152033732" expanded="false" signature="30000:30006" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -104,8 +133,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
+        <option value="$PROJECT_DIR$/src/antiSpamFilter/utils/Rules.java" />
+        <option value="$PROJECT_DIR$/src/antiSpamFilter/utils/Rule.java" />
         <option value="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" />
+        <option value="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
       </list>
     </option>
   </component>
@@ -116,8 +147,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="358" />
+    <option name="y" value="150" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -150,6 +181,11 @@
             <path>
               <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
+              <item name="AntiSpamConfigurationForProfessionalMailbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -165,6 +201,13 @@
               <item name="antiSpamFilter" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="antiSpamFilter" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -179,6 +222,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LEI\3ºano\1º Semestre\Engenharia de Software\ES1-2017-EIC1-28\AntiSpamConfigurationForProfessionalMailbox" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -342,7 +390,7 @@
       <workItem from="1510329669938" duration="15000" />
       <workItem from="1511953563024" duration="813000" />
       <workItem from="1512070862602" duration="7787000" />
-      <workItem from="1512133941238" duration="9778000" />
+      <workItem from="1512133941238" duration="15391000" />
     </task>
     <task id="LOCAL-00001" summary="Final support for IntelliJ and NetBeans added">
       <created>1510323590702</created>
@@ -393,11 +441,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512146126824</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changes:&#10;Made setters for FN and FP values in GUI&#10;Made Auto change mode view at Button Start click&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc">
+      <created>1512146685031</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512146685031</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19461000" />
+    <option name="totallyTimeSpent" value="25074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -405,31 +460,31 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -447,7 +502,8 @@
     <MESSAGE value="Changes:&#10;Made Table for Rule Weight selection (Manual mode)&#10;Added Button to generate random values (Manual mode)&#10;Added Button to save current config (Manual mode)&#10;&#10;&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
     <MESSAGE value="Changes:&#10;Made Table for Rule Weight selection (Manual mode)&#10;Added Button to generate random values (Manual mode)&#10;Added Button to save current config (Manual mode)&#10;Made Table for Rule Weight viewing (Auto mode)&#10;Added Button to save current config (Auto mode)&#10;Added FP and FN Labels for viewing values&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc&#10;TODO: Make Console method for debug/troubleshooting prints" />
     <MESSAGE value="Changes:&#10;Made Console for debug/troubleshooting/info prints&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;Made Console for debug/troubleshooting/info prints&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc" />
+    <MESSAGE value="Changes:&#10;Made setters for FN and FP values in GUI&#10;Made Auto change mode view at Button Start click&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;Made setters for FN and FP values in GUI&#10;Made Auto change mode view at Button Start click&#10;&#10;TODO: Make All added Swing Components work with listeners&#10;TODO: Make GUI Javadoc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,7 +518,11 @@
           <caret line="70" column="120" lean-forward="true" selection-start-line="70" selection-start-column="120" selection-end-line="70" selection-end-column="120" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#instance#0;n#AntiSpamFilter#0" expanded="true" />
             <element signature="method#showGUI#0;class#AntiSpamFilter#0" expanded="false" />
+            <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
+            <element signature="e#4502#4503#0" expanded="true" />
+            <element signature="e#4546#4547#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -473,34 +533,41 @@
           <caret line="321" column="42" lean-forward="true" selection-start-line="321" selection-start-column="42" selection-end-line="321" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2696#2855#0" expanded="true" />
-            <element signature="e#2854#2855#0" expanded="true" />
-            <element signature="e#3085#3238#0" expanded="true" />
-            <element signature="e#3237#3238#0" expanded="true" />
-            <element signature="e#4730#4731#0" expanded="true" />
-            <element signature="e#4787#4788#0" expanded="true" />
-            <element signature="e#5030#5031#0" expanded="true" />
-            <element signature="e#5093#5094#0" expanded="true" />
-            <element signature="e#11457#11458#0" expanded="true" />
-            <element signature="e#11523#11524#0" expanded="true" />
-            <element signature="e#11938#11939#0" expanded="true" />
-            <element signature="e#12003#12004#0" expanded="true" />
-            <element signature="e#12428#12429#0" expanded="true" />
-            <element signature="e#12495#12496#0" expanded="true" />
-            <element signature="e#16809#16810#0" expanded="true" />
-            <element signature="e#16877#16878#0" expanded="true" />
-            <element signature="e#28978#29158#0" expanded="true" />
-            <element signature="e#29157#29158#0" expanded="true" />
-            <marker date="1512146577559" expanded="false" signature="28579:28589" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28616:28622" ph=" }" />
-            <marker date="1512146577559" expanded="false" signature="28655:28665" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28690:28696" ph=" }" />
-            <marker date="1512146577559" expanded="false" signature="28729:28739" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28765:28771" ph=" }" />
-            <marker date="1512146577559" expanded="false" signature="28801:28811" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28828:28834" ph=" }" />
-            <marker date="1512146577559" expanded="false" signature="28864:28874" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28891:28897" ph=" }" />
+            <element signature="e#1593#1682#0" expanded="true" />
+            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3969#3970#0" expanded="true" />
+            <element signature="e#4212#4213#0" expanded="true" />
+            <element signature="e#4275#4276#0" expanded="true" />
+            <element signature="e#5138#5139#0" expanded="true" />
+            <element signature="e#5196#5197#0" expanded="true" />
+            <element signature="e#5272#5273#0" expanded="true" />
+            <element signature="e#5332#5333#0" expanded="true" />
+            <element signature="e#5737#5738#0" expanded="true" />
+            <element signature="e#5803#5804#0" expanded="true" />
+            <element signature="e#8144#8145#0" expanded="true" />
+            <element signature="e#8202#8203#0" expanded="true" />
+            <element signature="e#8278#8279#0" expanded="true" />
+            <element signature="e#8338#8339#0" expanded="true" />
+            <element signature="e#11863#11864#0" expanded="true" />
+            <element signature="e#11929#11930#0" expanded="true" />
+            <element signature="e#12344#12345#0" expanded="true" />
+            <element signature="e#12409#12410#0" expanded="true" />
+            <element signature="e#12834#12835#0" expanded="true" />
+            <element signature="e#12901#12902#0" expanded="true" />
+            <element signature="e#17215#17216#0" expanded="true" />
+            <element signature="e#17283#17284#0" expanded="true" />
+            <element signature="e#31810#31990#0" expanded="true" />
+            <element signature="e#31989#31990#0" expanded="true" />
+            <marker date="1512152033732" expanded="false" signature="29688:29698" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="29725:29731" ph=" }" />
+            <marker date="1512152033732" expanded="false" signature="29764:29774" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="29799:29805" ph=" }" />
+            <marker date="1512152033732" expanded="false" signature="29838:29848" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="29874:29880" ph=" }" />
+            <marker date="1512152033732" expanded="false" signature="29910:29920" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="29937:29943" ph=" }" />
+            <marker date="1512152033732" expanded="false" signature="29973:29983" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="30000:30006" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -611,51 +678,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="525" column="16" lean-forward="true" selection-start-line="525" selection-start-column="16" selection-end-line="525" selection-end-column="16" />
+          <folding>
+            <element signature="e#21107#21108#0" expanded="false" />
+            <element signature="e#21134#21135#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/rules.cf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/utils/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="1156">
+          <caret line="108" column="45" lean-forward="true" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#instance#0;n#AntiSpamFilter#0" expanded="true" />
             <element signature="method#showGUI#0;class#AntiSpamFilter#0" expanded="false" />
+            <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
+            <element signature="e#4502#4503#0" expanded="true" />
+            <element signature="e#4546#4547#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="508" column="45" lean-forward="false" selection-start-line="508" selection-start-column="45" selection-end-line="508" selection-end-column="45" />
+        <state relative-caret-position="-164">
+          <caret line="631" column="5" lean-forward="true" selection-start-line="631" selection-start-column="5" selection-end-line="631" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2696#2855#0" expanded="true" />
-            <element signature="e#2854#2855#0" expanded="true" />
-            <element signature="e#3085#3238#0" expanded="true" />
-            <element signature="e#3237#3238#0" expanded="true" />
-            <element signature="e#4730#4731#0" expanded="true" />
-            <element signature="e#4787#4788#0" expanded="true" />
-            <element signature="e#5030#5031#0" expanded="true" />
-            <element signature="e#5093#5094#0" expanded="true" />
-            <element signature="e#11457#11458#0" expanded="true" />
-            <element signature="e#11523#11524#0" expanded="true" />
-            <element signature="e#11938#11939#0" expanded="true" />
-            <element signature="e#12003#12004#0" expanded="true" />
-            <element signature="e#12428#12429#0" expanded="true" />
-            <element signature="e#12495#12496#0" expanded="true" />
-            <element signature="e#16809#16810#0" expanded="true" />
-            <element signature="e#16877#16878#0" expanded="true" />
-            <element signature="e#28978#29158#0" expanded="true" />
-            <element signature="e#29157#29158#0" expanded="true" />
-            <marker date="1512146577559" expanded="false" signature="28579:28589" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28616:28622" ph=" }" />
-            <marker date="1512146577559" expanded="false" signature="28655:28665" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28690:28696" ph=" }" />
-            <marker date="1512146577559" expanded="false" signature="28729:28739" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28765:28771" ph=" }" />
-            <marker date="1512146577559" expanded="false" signature="28801:28811" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28828:28834" ph=" }" />
-            <marker date="1512146577559" expanded="false" signature="28864:28874" ph=" { " />
-            <marker date="1512146577559" expanded="false" signature="28891:28897" ph=" }" />
+            <element signature="e#1593#1682#0" expanded="true" />
+            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3969#3970#0" expanded="true" />
+            <element signature="e#4212#4213#0" expanded="true" />
+            <element signature="e#4275#4276#0" expanded="true" />
+            <element signature="e#5138#5139#0" expanded="true" />
+            <element signature="e#5196#5197#0" expanded="true" />
+            <element signature="e#5272#5273#0" expanded="true" />
+            <element signature="e#5332#5333#0" expanded="true" />
+            <element signature="e#5737#5738#0" expanded="true" />
+            <element signature="e#5803#5804#0" expanded="true" />
+            <element signature="e#8144#8145#0" expanded="true" />
+            <element signature="e#8202#8203#0" expanded="true" />
+            <element signature="e#8278#8279#0" expanded="true" />
+            <element signature="e#8338#8339#0" expanded="true" />
+            <element signature="e#11863#11864#0" expanded="true" />
+            <element signature="e#11929#11930#0" expanded="true" />
+            <element signature="e#12344#12345#0" expanded="true" />
+            <element signature="e#12409#12410#0" expanded="true" />
+            <element signature="e#12834#12835#0" expanded="true" />
+            <element signature="e#12901#12902#0" expanded="true" />
+            <element signature="e#17215#17216#0" expanded="true" />
+            <element signature="e#17283#17284#0" expanded="true" />
+            <element signature="e#31810#31990#0" expanded="true" />
+            <element signature="e#31989#31990#0" expanded="true" />
+            <marker date="1512152033732" expanded="false" signature="29688:29698" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="29725:29731" ph=" }" />
+            <marker date="1512152033732" expanded="false" signature="29764:29774" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="29799:29805" ph=" }" />
+            <marker date="1512152033732" expanded="false" signature="29838:29848" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="29874:29880" ph=" }" />
+            <marker date="1512152033732" expanded="false" signature="29910:29920" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="29937:29943" ph=" }" />
+            <marker date="1512152033732" expanded="false" signature="29973:29983" ph=" { " />
+            <marker date="1512152033732" expanded="false" signature="30000:30006" ph=" }" />
           </folding>
         </state>
       </provider>
