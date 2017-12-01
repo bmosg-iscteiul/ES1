@@ -190,7 +190,12 @@ public class AntiSpamFilter {
     }
 
     public void runAuto() {
-        AntiSpamFilterAutomaticConfiguration.runAutomatic();
+        new Thread(){
+            @Override
+            public void run(){
+                AntiSpamFilterAutomaticConfiguration.runAutomatic();
+            }
+        }.run();
     }
 
 

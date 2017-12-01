@@ -34,7 +34,7 @@ public class GUI extends javax.swing.JFrame {
     public GUI() {
         initComponents();
 
-        initConsole();
+//        initConsole();
 
         setLocationRelativeTo(null);
         setResizable(false);
@@ -475,7 +475,7 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_ManualRadioActionPerformed
 
     private void ChangeRulesPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeRulesPathActionPerformed
-        JFileChooser path_chooser = new JFileChooser();
+        JFileChooser path_chooser = new JFileChooser(System.getProperty("user.dir"));
         FileNameExtensionFilter filter = new FileNameExtensionFilter("CF Files", "cf");
         path_chooser.setFileFilter(filter);
         path_chooser.setDialogTitle("Choose Rules File");
@@ -487,7 +487,7 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_ChangeRulesPathActionPerformed
 
     private void ChangeHamPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeHamPathActionPerformed
-        JFileChooser path_chooser = new JFileChooser();
+        JFileChooser path_chooser = new JFileChooser(System.getProperty("user.dir"));
         FileNameExtensionFilter filter = new FileNameExtensionFilter("LOG File", "log");
         path_chooser.setFileFilter(filter);
         path_chooser.setDialogTitle("Choose File");
@@ -498,7 +498,7 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_ChangeHamPathActionPerformed
 
     private void ChangeSpamPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeSpamPathActionPerformed
-        JFileChooser path_chooser = new JFileChooser();
+        JFileChooser path_chooser = new JFileChooser(System.getProperty("user.dir"));
         FileNameExtensionFilter filter = new FileNameExtensionFilter("LOG File", "log");
         path_chooser.setFileFilter(filter);
         path_chooser.setDialogTitle("Choose File");
@@ -509,7 +509,7 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_ChangeSpamPathActionPerformed
 
     private void ChangeOutputPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeOutputPathActionPerformed
-        JFileChooser path_chooser = new JFileChooser();
+        JFileChooser path_chooser = new JFileChooser(System.getProperty("user.dir"));
         path_chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         path_chooser.setDialogTitle("Choose Output Dir");
         int returnVal = path_chooser.showOpenDialog(this);
