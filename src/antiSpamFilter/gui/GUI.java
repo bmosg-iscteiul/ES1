@@ -29,6 +29,28 @@ public class GUI extends javax.swing.JFrame {
         setResizable(false);
 
         RulesPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\rules.cf");
+        OutputPath.setText(System.getProperty("user.dir")+"\\experimentBaseDirectory");
+
+        TableManual.setModel(new javax.swing.table.DefaultTableModel(
+                new Object [][] {
+                        {null, null},
+                        {null, null},
+                        {null, null},
+                        {null, null},
+                },
+                new String [] {"Rules", "Weight"}
+        ));
+        TableManual.getTableHeader().setReorderingAllowed(false);
+        TableAuto.setModel(new javax.swing.table.DefaultTableModel(
+                new Object [][] {
+                        {null, null},
+                        {null, null},
+                        {null, null},
+                        {null, null},
+                },
+                new String [] {"Rules", "Weight"}
+        ));
+        TableAuto.getTableHeader().setReorderingAllowed(false);
     }
 
     /**
@@ -46,25 +68,54 @@ public class GUI extends javax.swing.JFrame {
         ManualRadio = new javax.swing.JRadioButton();
         AutoRadio = new javax.swing.JRadioButton();
         jTabbedPane1 = new javax.swing.JTabbedPane();
-        jPanel2 = new javax.swing.JPanel();
-        jPanel3 = new javax.swing.JPanel();
+        ManualMode = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        TableManual = new JTable(){
+            @Override
+            public boolean isCellEditable(int row, int column){
+                return column != 0;
+            }
+        }
+        ;
+        ManualSave = new javax.swing.JButton();
+        GenerateRandom = new javax.swing.JButton();
+        AutoMode = new javax.swing.JPanel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        TableAuto = new JTable(){
+            @Override
+            public boolean isCellEditable(int row, int column){
+                return false;
+            }
+        }
+        ;
+        AutoSave = new javax.swing.JButton();
         ConsolePanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        Console = new javax.swing.JTextArea();
         PathPanel = new javax.swing.JPanel();
-        RulesJLabel = new javax.swing.JLabel();
-        HamJLabel = new javax.swing.JLabel();
-        SpamJLabel = new javax.swing.JLabel();
+        InputPanel = new javax.swing.JPanel();
+        ChangeSpamPath = new javax.swing.JButton();
+        ChangeHamPath = new javax.swing.JButton();
+        ChangeRulesPath = new javax.swing.JButton();
         RulesPath = new javax.swing.JTextField();
         HamPath = new javax.swing.JTextField();
         SpamPath = new javax.swing.JTextField();
-        ChangeRulesPath = new javax.swing.JButton();
-        ChangeHamPath = new javax.swing.JButton();
-        ChangeSpamPath = new javax.swing.JButton();
+        SpamJLabel = new javax.swing.JLabel();
+        HamJLabel = new javax.swing.JLabel();
+        RulesJLabel = new javax.swing.JLabel();
+        OutputPanel = new javax.swing.JPanel();
+        OutputPath = new javax.swing.JTextField();
+        ChangeOutputPath = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Anti Spam Filter");
+        setMaximumSize(new java.awt.Dimension(800, 600));
         setResizable(false);
+        setSize(new java.awt.Dimension(800, 600));
 
         Start.setText("Start");
         Start.addActionListener(new java.awt.event.ActionListener() {
@@ -84,35 +135,100 @@ public class GUI extends javax.swing.JFrame {
         ModeRadioGroup.add(AutoRadio);
         AutoRadio.setText("Auto");
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 775, Short.MAX_VALUE)
+        TableManual.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane2.setViewportView(TableManual);
+
+        ManualSave.setText("Save Config");
+
+        GenerateRandom.setText("Generate Ramdom Configuration");
+
+        javax.swing.GroupLayout ManualModeLayout = new javax.swing.GroupLayout(ManualMode);
+        ManualMode.setLayout(ManualModeLayout);
+        ManualModeLayout.setHorizontalGroup(
+            ManualModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ManualModeLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(ManualModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 755, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ManualModeLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(GenerateRandom)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(ManualSave)))
+                .addContainerGap())
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 490, Short.MAX_VALUE)
+        ManualModeLayout.setVerticalGroup(
+            ManualModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ManualModeLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 437, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(ManualModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ManualSave)
+                    .addComponent(GenerateRandom))
+                .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Manual Mode", jPanel2);
+        jTabbedPane1.addTab("Manual Mode", ManualMode);
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 775, Short.MAX_VALUE)
+        TableAuto.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane4.setViewportView(TableAuto);
+
+        AutoSave.setText("Save Config");
+
+        javax.swing.GroupLayout AutoModeLayout = new javax.swing.GroupLayout(AutoMode);
+        AutoMode.setLayout(AutoModeLayout);
+        AutoModeLayout.setHorizontalGroup(
+            AutoModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AutoModeLayout.createSequentialGroup()
+                .addContainerGap(674, Short.MAX_VALUE)
+                .addComponent(AutoSave)
+                .addContainerGap())
+            .addGroup(AutoModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(AutoModeLayout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jScrollPane4)
+                    .addContainerGap()))
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 490, Short.MAX_VALUE)
+        AutoModeLayout.setVerticalGroup(
+            AutoModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AutoModeLayout.createSequentialGroup()
+                .addContainerGap(454, Short.MAX_VALUE)
+                .addComponent(AutoSave, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(AutoModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(AutoModeLayout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 437, Short.MAX_VALUE)
+                    .addGap(40, 40, 40)))
         );
 
-        jTabbedPane1.addTab("Auto Mode", jPanel3);
+        jTabbedPane1.addTab("Auto Mode", AutoMode);
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
+        Console.setEditable(false);
+        Console.setColumns(20);
+        Console.setRows(5);
+        jScrollPane1.setViewportView(Console);
 
         javax.swing.GroupLayout ConsolePanelLayout = new javax.swing.GroupLayout(ConsolePanel);
         ConsolePanel.setLayout(ConsolePanelLayout);
@@ -127,31 +243,21 @@ public class GUI extends javax.swing.JFrame {
             ConsolePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ConsolePanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 468, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 466, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
         jTabbedPane1.addTab("Console", ConsolePanel);
 
-        RulesJLabel.setText("rules.cf");
+        InputPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Input Files"));
 
-        HamJLabel.setText("ham.log");
-
-        SpamJLabel.setText("spam.log");
-
-        RulesPath.setEditable(false);
-
-        HamPath.setEditable(false);
-
-        SpamPath.setEditable(false);
-
-        ChangeRulesPath.setText("...");
-        ChangeRulesPath.setMaximumSize(new java.awt.Dimension(45, 20));
-        ChangeRulesPath.setMinimumSize(new java.awt.Dimension(45, 20));
-        ChangeRulesPath.setPreferredSize(new java.awt.Dimension(45, 20));
-        ChangeRulesPath.addActionListener(new java.awt.event.ActionListener() {
+        ChangeSpamPath.setText("...");
+        ChangeSpamPath.setMaximumSize(new java.awt.Dimension(45, 20));
+        ChangeSpamPath.setMinimumSize(new java.awt.Dimension(45, 20));
+        ChangeSpamPath.setPreferredSize(new java.awt.Dimension(45, 20));
+        ChangeSpamPath.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ChangeRulesPathActionPerformed(evt);
+                ChangeSpamPathActionPerformed(evt);
             }
         });
 
@@ -165,62 +271,134 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        ChangeSpamPath.setText("...");
-        ChangeSpamPath.setMaximumSize(new java.awt.Dimension(45, 20));
-        ChangeSpamPath.setMinimumSize(new java.awt.Dimension(45, 20));
-        ChangeSpamPath.setPreferredSize(new java.awt.Dimension(45, 20));
-        ChangeSpamPath.addActionListener(new java.awt.event.ActionListener() {
+        ChangeRulesPath.setText("...");
+        ChangeRulesPath.setMaximumSize(new java.awt.Dimension(45, 20));
+        ChangeRulesPath.setMinimumSize(new java.awt.Dimension(45, 20));
+        ChangeRulesPath.setPreferredSize(new java.awt.Dimension(45, 20));
+        ChangeRulesPath.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ChangeSpamPathActionPerformed(evt);
+                ChangeRulesPathActionPerformed(evt);
             }
         });
+
+        RulesPath.setEditable(false);
+
+        HamPath.setEditable(false);
+
+        SpamPath.setEditable(false);
+
+        SpamJLabel.setText("spam.log");
+
+        HamJLabel.setText("ham.log");
+
+        RulesJLabel.setText("rules.cf");
+
+        javax.swing.GroupLayout InputPanelLayout = new javax.swing.GroupLayout(InputPanel);
+        InputPanel.setLayout(InputPanelLayout);
+        InputPanelLayout.setHorizontalGroup(
+            InputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(InputPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(InputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(RulesJLabel)
+                    .addComponent(SpamJLabel)
+                    .addComponent(HamJLabel))
+                .addGap(18, 18, 18)
+                .addGroup(InputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(RulesPath, javax.swing.GroupLayout.DEFAULT_SIZE, 654, Short.MAX_VALUE)
+                    .addComponent(HamPath)
+                    .addComponent(SpamPath))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(InputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ChangeRulesPath, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ChangeHamPath, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ChangeSpamPath, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        InputPanelLayout.setVerticalGroup(
+            InputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(InputPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(InputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(RulesJLabel)
+                    .addComponent(RulesPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ChangeRulesPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(InputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(HamJLabel)
+                    .addComponent(HamPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ChangeHamPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(InputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(SpamJLabel)
+                    .addComponent(SpamPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ChangeSpamPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        OutputPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Output Files"));
+
+        OutputPath.setEditable(false);
+
+        ChangeOutputPath.setText("...");
+        ChangeOutputPath.setMaximumSize(new java.awt.Dimension(45, 20));
+        ChangeOutputPath.setMinimumSize(new java.awt.Dimension(45, 20));
+        ChangeOutputPath.setPreferredSize(new java.awt.Dimension(45, 20));
+        ChangeOutputPath.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ChangeOutputPathActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout OutputPanelLayout = new javax.swing.GroupLayout(OutputPanel);
+        OutputPanel.setLayout(OutputPanelLayout);
+        OutputPanelLayout.setHorizontalGroup(
+            OutputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(OutputPanelLayout.createSequentialGroup()
+                .addGap(72, 72, 72)
+                .addComponent(OutputPath, javax.swing.GroupLayout.PREFERRED_SIZE, 654, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(ChangeOutputPath, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(388, 388, 388))
+        );
+        OutputPanelLayout.setVerticalGroup(
+            OutputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, OutputPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(OutputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(OutputPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ChangeOutputPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
 
         javax.swing.GroupLayout PathPanelLayout = new javax.swing.GroupLayout(PathPanel);
         PathPanel.setLayout(PathPanelLayout);
         PathPanelLayout.setHorizontalGroup(
             PathPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PathPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PathPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(RulesJLabel)
-                    .addComponent(SpamJLabel)
-                    .addComponent(HamJLabel))
-                .addGap(18, 18, 18)
-                .addGroup(PathPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(HamPath, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE)
-                    .addComponent(RulesPath, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(SpamPath))
-                .addGap(3, 3, 3)
-                .addGroup(PathPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(ChangeRulesPath, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ChangeHamPath, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ChangeSpamPath, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(401, Short.MAX_VALUE))
+            .addComponent(InputPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 775, Short.MAX_VALUE)
+            .addComponent(OutputPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 775, Short.MAX_VALUE)
         );
         PathPanelLayout.setVerticalGroup(
             PathPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PathPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(PathPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(RulesJLabel)
-                    .addComponent(RulesPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ChangeRulesPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(PathPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(HamJLabel)
-                    .addComponent(HamPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ChangeHamPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(PathPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpamJLabel)
-                    .addComponent(SpamPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ChangeSpamPath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(383, Short.MAX_VALUE))
+                .addComponent(InputPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(OutputPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(265, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Path Config", PathPanel);
 
         jTabbedPane1.setSelectedIndex(3);
+
+        jLabel1.setText("0");
+
+        jLabel2.setText("FN:");
+
+        jLabel4.setText("0");
+
+        jLabel5.setText("FP");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -235,8 +413,16 @@ public class GUI extends javax.swing.JFrame {
                         .addComponent(ManualRadio)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(AutoRadio)
-                        .addGap(510, 510, 510)
-                        .addComponent(Start, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel4)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel1)
+                        .addGap(18, 18, 18)
+                        .addComponent(Start, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -248,8 +434,12 @@ public class GUI extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Start)
                     .addComponent(ManualRadio)
-                    .addComponent(AutoRadio))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(AutoRadio)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel5))
+                .addGap(8, 8, 8)
                 .addComponent(ProgressBar, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -291,6 +481,10 @@ public class GUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_ChangeSpamPathActionPerformed
 
+    private void ChangeOutputPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeOutputPathActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ChangeOutputPathActionPerformed
+
     private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
         if(ManualRadio.isSelected() || AutoRadio.isSelected()) {
             if (AutoRadio.isSelected())
@@ -322,15 +516,25 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_StartActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel AutoMode;
     private javax.swing.JRadioButton AutoRadio;
+    private javax.swing.JButton AutoSave;
     private javax.swing.JButton ChangeHamPath;
+    private javax.swing.JButton ChangeOutputPath;
     private javax.swing.JButton ChangeRulesPath;
     private javax.swing.JButton ChangeSpamPath;
+    private javax.swing.JTextArea Console;
     private javax.swing.JPanel ConsolePanel;
+    private javax.swing.JButton GenerateRandom;
     private javax.swing.JLabel HamJLabel;
     private javax.swing.JTextField HamPath;
+    private javax.swing.JPanel InputPanel;
+    private javax.swing.JPanel ManualMode;
     private javax.swing.JRadioButton ManualRadio;
+    private javax.swing.JButton ManualSave;
     private javax.swing.ButtonGroup ModeRadioGroup;
+    private javax.swing.JPanel OutputPanel;
+    private javax.swing.JTextField OutputPath;
     private javax.swing.JPanel PathPanel;
     private javax.swing.JProgressBar ProgressBar;
     private javax.swing.JLabel RulesJLabel;
@@ -338,11 +542,16 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JLabel SpamJLabel;
     private javax.swing.JTextField SpamPath;
     private javax.swing.JToggleButton Start;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
+    private javax.swing.JTable TableAuto;
+    private javax.swing.JTable TableManual;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables
 
     public String getRulesPath(){
@@ -356,4 +565,5 @@ public class GUI extends javax.swing.JFrame {
     public String getSpamPath(){
         return SpamPath.getText();
     }
+
 }
