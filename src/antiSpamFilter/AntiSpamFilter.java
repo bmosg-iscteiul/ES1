@@ -99,6 +99,7 @@ public class AntiSpamFilter {
             while (rulesReader.readLine()!=null){
                 count++;
             }
+            rulesReader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -121,6 +122,7 @@ public class AntiSpamFilter {
                     auto_rules.add(new Rule(text[0], 0));
                 }
             }
+            rulesReader.close();
             gui.setManualRules(manual_rules);
             gui.setAutoRules(auto_rules);
         } catch (IOException e) {
@@ -154,6 +156,7 @@ public class AntiSpamFilter {
                 if(current_value >= 5)
                     fp++;
             }
+            hamList.close();
         } catch(FileNotFoundException e) {
             e.printStackTrace();
         } catch(IOException e) {
@@ -165,14 +168,15 @@ public class AntiSpamFilter {
     public int evaluateSpam(ArrayList<Rule> weightedRules) {
         int fn = 0;
         try {
-            BufferedReader hamList = new BufferedReader(new FileReader(gui.getSpamPath()));
+            BufferedReader spamList = new BufferedReader(new FileReader(gui.getSpamPath()));
             String current_line;
-            while((current_line = hamList.readLine()) != null) {
+            while((current_line = spamList.readLine()) != null) {
                 String[] split_line = current_line.split("\t");
                 double current_value = evaluateRuleWeight(split_line, weightedRules);
                 if(current_value < 5)
                     fn++;
             }
+            spamList.close();
         } catch(FileNotFoundException e) {
             e.printStackTrace();
         } catch(IOException e) {
@@ -181,6 +185,51 @@ public class AntiSpamFilter {
         return fn;
     }
 
+    private double[] checkSolutions() {
+        double[] bestSolutions = new double[gui.getAutoRules().size()];
+        int bestValues = -1;
+        try {
+            BufferedReader bestHV = new BufferedReader(new FileReader("experimentBaseDirectory\\AntiSpamStudy\\data\\NSGAII\\AntiSpamFilterProblem\\BEST_HV_FUN.tsv"));
+            double best_fp = -1;
+            double best_fn = -1;
+            String line;
+            int i = 0;
+            while((line = bestHV.readLine()) != null) {
+                String[] split_string = line.split(" ");
+                double fp = Double.parseDouble(split_string[0]);
+                double fn = Double.parseDouble(split_string[1]);
+                if(bestValues == -1) {
+                    bestValues = 0;
+                    best_fp = fp;
+                    best_fn = fn;
+                    i++;
+                } else if(fp < best_fp && fn > best_fn) {
+                    bestValues = i;
+                    best_fp = fp;
+                    best_fn = fn;
+                }
+                i++;
+            }
+            bestHV.close();
+            BufferedReader bestWeights = new BufferedReader(new FileReader("experimentBaseDirectory\\AntiSpamStudy\\data\\NSGAII\\AntiSpamFilterProblem\\BEST_HV_VAR.tsv"));
+            int l = 0;
+            line = bestWeights.readLine();
+            while(l != bestValues) {
+                line = bestWeights.readLine();
+                l++;
+            }
+            String[] weights = line.split(" ");
+            for(int j = 0; j < bestSolutions.length; j++) {
+                bestSolutions[j] = Double.parseDouble(weights[j]);
+            }
+            bestWeights.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
+        return bestSolutions;
+    }
 
     /*--------------------------------------------------- Run Modes --------------------------------------------------*/
 
@@ -190,12 +239,15 @@ public class AntiSpamFilter {
     }
 
     public void runAuto() {
-        new Thread(){
-            @Override
-            public void run(){
-                AntiSpamFilterAutomaticConfiguration.runAutomatic();
-            }
-        }.run();
+        AntiSpamFilterAutomaticConfiguration.runAutomatic();
+        double[] bestWeights = checkSolutions();
+        ArrayList<Rule> autoRules = gui.getAutoRules();
+        for(int i = 0; i < bestWeights.length; i++) {
+            autoRules.get(i).setWeight(bestWeights[i]);
+        }
+        gui.setAutoRules(autoRules);
+        gui.setFP(evaluateHam(gui.getAutoRules()));
+        gui.setFN(evaluateSpam(gui.getAutoRules()));
     }
 
 
@@ -205,26 +257,6 @@ public class AntiSpamFilter {
 
     public static void main(String[] args){
         AntiSpamFilter.getInstance();
-    }
-
-
-
-    static List<ExperimentAlgorithm<DoubleSolution, List<DoubleSolution>>> configureAlgorithmList(
-            List<ExperimentProblem<DoubleSolution>> problemList) {
-        List<ExperimentAlgorithm<DoubleSolution, List<DoubleSolution>>> algorithms = new ArrayList<>();
-
-        for (int i = 0; i < problemList.size(); i++) {
-            Algorithm<List<DoubleSolution>> algorithm = new NSGAIIBuilder<>(
-                    problemList.get(i).getProblem(),
-                    new SBXCrossover(1.0, 5),
-                    new PolynomialMutation(1.0 / problemList.get(i).getProblem().getNumberOfVariables(), 10.0))
-                    .setMaxEvaluations(25000)
-                    .setPopulationSize(100)
-                    .build();
-            algorithms.add(new ExperimentAlgorithm<>(algorithm, "NSGAII", problemList.get(i).getTag()));
-        }
-
-        return algorithms;
     }
 
 }

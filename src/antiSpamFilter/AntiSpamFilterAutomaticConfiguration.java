@@ -22,7 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class AntiSpamFilterAutomaticConfiguration {
-    private static final int INDEPENDENT_RUNS = 1;
+    private static final int INDEPENDENT_RUNS = 5;
 
     public static void runAutomatic() {
         try {
