@@ -31,11 +31,13 @@ public class GUI extends javax.swing.JFrame {
     public GUI() {
         initComponents();
 
-//        initConsole();
+        initConsole();
 
         setLocationRelativeTo(null);
         setResizable(false);
 
+//        HamPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\ham.log");
+//        SpamPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\spam.log");
         RulesPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\rules.cf");
         OutputPath.setText(System.getProperty("user.dir")+"\\experimentBaseDirectory");
         TableManual.getTableHeader().setReorderingAllowed(false);
@@ -537,16 +539,22 @@ public class GUI extends javax.swing.JFrame {
         if(ManualRadio.isSelected() || AutoRadio.isSelected()) {
             if (AutoRadio.isSelected()) {
                 TabbedPane.setSelectedIndex(2);
+                System.out.println("Running NSGAII Algorithm");
                 repaint();
                 EventQueue.invokeLater(new Runnable(){
                     @Override
                     public void run() {
                         AntiSpamFilter.getInstance().runAuto();
-                        TabbedPane.setSelectedIndex(1);
-                        repaint();
+                        EventQueue.invokeLater(new Runnable(){
+                            @Override
+                            public void run() {
+                                System.out.println("NSGAII Algorithm Complete");
+                                TabbedPane.setSelectedIndex(1);
+                                repaint();
+                            }
+                        });
                     }
                 });
-                AntiSpamFilter.getInstance().runAuto();
             }
             else {
                 TabbedPane.setSelectedIndex(0);
