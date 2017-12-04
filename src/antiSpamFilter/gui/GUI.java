@@ -22,7 +22,7 @@ import java.util.ArrayList;
  *
  * @author Carlos Rafael Fernandes
  * @author Bruno Gama
- * @author André Sousa
+ * @author Andrï¿½ Sousa
  * @author Rui Farinha
  *
  */
@@ -648,6 +648,14 @@ public class GUI extends javax.swing.JFrame {
 
     public String getSpamPath(){
         return SpamPath.getText();
+    }
+
+    public int getFP(){
+        return Integer.parseInt(FP.getText());
+    }
+
+    public int getFN(){
+        return Integer.parseInt(FN.getText());
     }
 
     public int getIndependentRuns(){

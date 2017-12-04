@@ -24,7 +24,7 @@ import java.util.List;
  * Main class that starts and loads the antiSpam program
  *
  * @author Carlos Rafael Fernandes
- * @author André Sousa
+ * @author Andrï¿½ Sousa
  * @author Bruno Gama
  * @author Rui farinha
  */
@@ -95,7 +95,6 @@ public class AntiSpamFilter {
      * GUI getter
      * @return gui
      */
-    
     
     public GUI getGUI() {
         return gui;
@@ -271,8 +270,6 @@ public class AntiSpamFilter {
                 rulesFile.flush();
             }
             rulesFile.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -308,5 +305,4 @@ public class AntiSpamFilter {
     public static void main(String[] args) {
         AntiSpamFilter.getInstance();
     }
-
 }
