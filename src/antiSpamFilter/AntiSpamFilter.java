@@ -20,6 +20,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 
+ * Main class that starts and loads the antiSpam program
+ *
+ * @author Carlos Rafael Fernandes
+ * @author André Sousa
+ * @author Bruno Gama
+ * @author Rui farinha
+ *
+ */
+
 public class AntiSpamFilter {
 
     // <editor-fold defaultstate="collapsed" desc="Singleton Code">
@@ -33,7 +44,10 @@ public class AntiSpamFilter {
     private GUI gui;
     private static final int INDEPENDENT_RUNS = 5 ;
 
-
+    /**
+     * Class Constructor
+     */
+    
     private AntiSpamFilter(){
         initGUI();
         showGUI();
@@ -41,8 +55,10 @@ public class AntiSpamFilter {
         System.out.println("Program Started");
     }
 
-    /*------------------------------------------------ GUI Functions -------------------------------------------------*/
-
+    /**
+     * GUI Functions
+     */
+    
     private void initGUI() {
         gui = new GUI();
     }
@@ -76,8 +92,10 @@ public class AntiSpamFilter {
         });
     }
 
-    /*--------------------------------------------------- Getters ----------------------------------------------------*/
-
+    /**
+     * Class Getter's
+     */
+    
     public ArrayList<Rule> getRules(){
         if(gui.getMode()==GUI.Manual)
             return gui.getManualRules();
@@ -90,8 +108,15 @@ public class AntiSpamFilter {
         return gui;
     }
 
-    /*------------------------------------------------------ IO ------------------------------------------------------*/
-
+    /**
+     * IO
+     * 
+     * Rules
+     * load rules from files ham and spam and
+     * counts how many rules there are in that file
+     * 
+     */
+    
     public int countRules() {
         int count =0;
         try {
@@ -111,9 +136,9 @@ public class AntiSpamFilter {
         ArrayList<Rule> auto_rules = new ArrayList<>();
         try {
             BufferedReader rulesReader = new BufferedReader(new FileReader(gui.getRulesPath()));
-            for (int i = 0; i <countRules(); i++) {
+            for (int i = 0; i < countRules(); i++) {
                 String[] text = rulesReader.readLine().split("\t");
-                if(text.length!=1) {
+                if(text.length != 1) {
                     manual_rules.add(new Rule(text[0], Double.parseDouble(text[1])));
                     auto_rules.add(new Rule(text[0], Double.parseDouble(text[1])));
                 }
@@ -130,7 +155,10 @@ public class AntiSpamFilter {
         }
     }
 
-    /*--------------------------------------------------- Evaluate ---------------------------------------------------*/
+    /**
+     * Checks by the number of rules existing if they are weight distributed
+     */
+    
     private double evaluateRuleWeight(String[] ruleList, ArrayList<Rule> weightedRules) {
         double val = 0.0;
         for(int i = 1; i < ruleList.length; i++) {
@@ -144,7 +172,11 @@ public class AntiSpamFilter {
         }
         return val;
     }
-
+    
+    /**
+     * Evaluates the loaded ham rules and gives them a distributed weight
+     */
+    
     public int evaluateHam(ArrayList<Rule> weightedRules) {
         int fp = 0;
         try {
@@ -165,6 +197,10 @@ public class AntiSpamFilter {
         return fp;
     }
 
+    /**
+     * Evaluates the loaded spam rules and gives them a distributed weight
+     */
+    
     public int evaluateSpam(ArrayList<Rule> weightedRules) {
         int fn = 0;
         try {
@@ -185,6 +221,10 @@ public class AntiSpamFilter {
         return fn;
     }
 
+    /**
+     * Checks if the Weights are well distributed
+     */
+    
     private double[] checkSolutions() {
         double[] bestSolutions = new double[gui.getAutoRules().size()];
         int bestValues = -1;
@@ -227,8 +267,13 @@ public class AntiSpamFilter {
         return bestSolutions;
     }
 
-    /*--------------------------------------------------- Run Modes --------------------------------------------------*/
-
+    /**
+     * Running Modes
+     * 
+     * Manual & Automatic
+     * 
+     */
+    
     public void runManual() {
         gui.setFP(evaluateHam(gui.getManualRules()));
         gui.setFN(evaluateSpam(gui.getManualRules()));
@@ -246,9 +291,10 @@ public class AntiSpamFilter {
         gui.setFN(evaluateSpam(gui.getAutoRules()));
     }
 
-
-    /*----------------------------------------------------- Main -----------------------------------------------------*/
-
+    /**
+     * Main Function calls AntiSpamFilter Instance
+     */
+    
     public static void main(String[] args){
         AntiSpamFilter.getInstance();
     }
