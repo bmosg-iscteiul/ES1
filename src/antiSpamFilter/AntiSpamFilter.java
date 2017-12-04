@@ -190,19 +190,15 @@ public class AntiSpamFilter {
         int bestValues = -1;
         try {
             BufferedReader bestHV = new BufferedReader(new FileReader("experimentBaseDirectory\\AntiSpamStudy\\data\\NSGAII\\AntiSpamFilterProblem\\BEST_HV_FUN.tsv"));
-            double best_fp = -1;
-            double best_fn = -1;
+            double best_fp = -1, best_fn = -1;
             String line;
             int i = 0;
             while((line = bestHV.readLine()) != null) {
-                String[] split_string = line.split(" ");
-                double fp = Double.parseDouble(split_string[0]);
-                double fn = Double.parseDouble(split_string[1]);
+                double fp = Double.parseDouble(line.split(" ")[0]), fn = Double.parseDouble(line.split(" ")[1]);
                 if(bestValues == -1) {
                     bestValues = 0;
                     best_fp = fp;
                     best_fn = fn;
-                    i++;
                 } else if(fp < best_fp && fn > best_fn) {
                     bestValues = i;
                     best_fp = fp;
@@ -239,7 +235,7 @@ public class AntiSpamFilter {
     }
 
     public void runAuto() {
-        AntiSpamFilterAutomaticConfiguration.runAutomatic();
+        AntiSpamFilterAutomaticConfiguration.runAutomatic(5);
         double[] bestWeights = checkSolutions();
         ArrayList<Rule> autoRules = gui.getAutoRules();
         for(int i = 0; i < bestWeights.length; i++) {
@@ -249,8 +245,6 @@ public class AntiSpamFilter {
         gui.setFP(evaluateHam(gui.getAutoRules()));
         gui.setFN(evaluateSpam(gui.getAutoRules()));
     }
-
-
 
 
     /*----------------------------------------------------- Main -----------------------------------------------------*/
