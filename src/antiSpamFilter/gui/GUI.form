@@ -100,9 +100,6 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Manual"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ManualRadioActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="AutoRadio">
       <Properties>
@@ -185,6 +182,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Save Config"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ManualSaveActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="GenerateRandom">
               <Properties>

@@ -8,7 +8,6 @@ package antiSpamFilter.gui;
 import antiSpamFilter.AntiSpamFilter;
 import antiSpamFilter.utils.Rule;
 
-import javax.print.attribute.standard.MediaSize;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
@@ -16,8 +15,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * This is our take on a simple Graphical User Interface
@@ -108,11 +105,6 @@ public class GUI extends javax.swing.JFrame {
 
         ModeRadioGroup.add(ManualRadio);
         ManualRadio.setText("Manual");
-        ManualRadio.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ManualRadioActionPerformed(evt);
-            }
-        });
 
         ModeRadioGroup.add(AutoRadio);
         AutoRadio.setText("Auto");
@@ -144,6 +136,11 @@ public class GUI extends javax.swing.JFrame {
         jScrollPane2.setViewportView(TableManual);
 
         ManualSave.setText("Save Config");
+        ManualSave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ManualSaveActionPerformed(evt);
+            }
+        });
 
         GenerateRandom.setText("Generate Ramdom Configuration");
         GenerateRandom.addActionListener(new java.awt.event.ActionListener() {
@@ -477,10 +474,6 @@ public class GUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void ManualRadioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ManualRadioActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ManualRadioActionPerformed
-
     private void ChangeRulesPathActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChangeRulesPathActionPerformed
         JFileChooser path_chooser = new JFileChooser(System.getProperty("user.dir"));
         FileNameExtensionFilter filter = new FileNameExtensionFilter("CF Files", "cf");
@@ -532,17 +525,39 @@ public class GUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_GenerateRandomActionPerformed
 
+    private void AutoSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AutoSaveActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_AutoSaveActionPerformed
+
+    private void ManualSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ManualSaveActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ManualSaveActionPerformed
+
     private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
         if(ManualRadio.isSelected() || AutoRadio.isSelected()) {
             if (AutoRadio.isSelected()) {
-                TabbedPane.setSelectedIndex(1);
+                TabbedPane.setSelectedIndex(2);
                 repaint();
+                EventQueue.invokeLater(new Runnable(){
+                    @Override
+                    public void run() {
+                        AntiSpamFilter.getInstance().runAuto();
+                        TabbedPane.setSelectedIndex(1);
+                        repaint();
+                    }
+                });
                 AntiSpamFilter.getInstance().runAuto();
             }
             else {
                 TabbedPane.setSelectedIndex(0);
                 repaint();
-                AntiSpamFilter.getInstance().runManual();
+                EventQueue.invokeLater(new Runnable(){
+                    @Override
+                    public void run() {
+                        AntiSpamFilter.getInstance().runManual();
+                    }
+                });
+
             }
         }
         else{
@@ -567,10 +582,6 @@ public class GUI extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_StartActionPerformed
-
-    private void AutoSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AutoSaveActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_AutoSaveActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel AutoMode;
