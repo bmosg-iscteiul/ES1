@@ -69,6 +69,8 @@ public class GUI extends javax.swing.JFrame {
         jScrollPane4 = new javax.swing.JScrollPane();
         TableAuto = new javax.swing.JTable();
         AutoSave = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        IndependentRuns = new javax.swing.JTextField();
         ConsolePanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         Console = new javax.swing.JTextArea();
@@ -93,6 +95,7 @@ public class GUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Anti Spam Filter");
+        setMaximumSize(new java.awt.Dimension(800, 600));
         setResizable(false);
         setSize(new java.awt.Dimension(800, 600));
 
@@ -116,16 +119,7 @@ public class GUI extends javax.swing.JFrame {
 
         TableManual.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null}
+
             },
             new String [] {
                 "Rules", "Weight"
@@ -189,10 +183,7 @@ public class GUI extends javax.swing.JFrame {
 
         TableAuto.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null}
+
             },
             new String [] {
                 "Rules", "Weight"
@@ -217,13 +208,27 @@ public class GUI extends javax.swing.JFrame {
         jScrollPane4.setViewportView(TableAuto);
 
         AutoSave.setText("Save Config");
+        AutoSave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AutoSaveActionPerformed(evt);
+            }
+        });
+
+        jLabel1.setText("Independent Runs:");
+
+        IndependentRuns.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        IndependentRuns.setText("5");
 
         javax.swing.GroupLayout AutoModeLayout = new javax.swing.GroupLayout(AutoMode);
         AutoMode.setLayout(AutoModeLayout);
         AutoModeLayout.setHorizontalGroup(
             AutoModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AutoModeLayout.createSequentialGroup()
-                .addContainerGap(674, Short.MAX_VALUE)
+                .addContainerGap(551, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(IndependentRuns, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(AutoSave)
                 .addContainerGap())
             .addGroup(AutoModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -236,7 +241,10 @@ public class GUI extends javax.swing.JFrame {
             AutoModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AutoModeLayout.createSequentialGroup()
                 .addContainerGap(454, Short.MAX_VALUE)
-                .addComponent(AutoSave, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(AutoModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(AutoSave, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel1)
+                    .addComponent(IndependentRuns, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
             .addGroup(AutoModeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(AutoModeLayout.createSequentialGroup()
@@ -560,6 +568,10 @@ public class GUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_StartActionPerformed
 
+    private void AutoSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AutoSaveActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_AutoSaveActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel AutoMode;
     private javax.swing.JRadioButton AutoRadio;
@@ -575,6 +587,7 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JButton GenerateRandom;
     private javax.swing.JLabel HamJLabel;
     private javax.swing.JTextField HamPath;
+    private javax.swing.JTextField IndependentRuns;
     private javax.swing.JPanel InputPanel;
     private javax.swing.JPanel ManualMode;
     private javax.swing.JRadioButton ManualRadio;
@@ -592,6 +605,7 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JTabbedPane TabbedPane;
     private javax.swing.JTable TableAuto;
     private javax.swing.JTable TableManual;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JScrollPane jScrollPane1;
@@ -620,6 +634,10 @@ public class GUI extends javax.swing.JFrame {
 
     public String getSpamPath(){
         return SpamPath.getText();
+    }
+
+    public int getIndependentRuns(){
+        return Integer.parseInt(IndependentRuns.getText());
     }
 
     public void setFP(int i){

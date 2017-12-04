@@ -235,7 +235,7 @@ public class AntiSpamFilter {
     }
 
     public void runAuto() {
-        AntiSpamFilterAutomaticConfiguration.runAutomatic(5);
+        AntiSpamFilterAutomaticConfiguration.runAutomatic(gui.getIndependentRuns());
         double[] bestWeights = checkSolutions();
         ArrayList<Rule> autoRules = gui.getAutoRules();
         for(int i = 0; i < bestWeights.length; i++) {
