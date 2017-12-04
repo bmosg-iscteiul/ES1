@@ -54,7 +54,6 @@ public class GUI extends javax.swing.JFrame {
     private void initComponents() {
 
         ModeRadioGroup = new javax.swing.ButtonGroup();
-        ProgressBar = new javax.swing.JProgressBar();
         Start = new javax.swing.JToggleButton();
         ManualRadio = new javax.swing.JRadioButton();
         AutoRadio = new javax.swing.JRadioButton();
@@ -437,7 +436,6 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(TabbedPane)
-                    .addComponent(ProgressBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(ManualRadio)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -468,9 +466,7 @@ public class GUI extends javax.swing.JFrame {
                     .addComponent(jLabel2)
                     .addComponent(FP)
                     .addComponent(jLabel5))
-                .addGap(8, 8, 8)
-                .addComponent(ProgressBar, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addGap(11, 11, 11))
         );
 
         pack();
@@ -615,7 +611,6 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JPanel OutputPanel;
     private javax.swing.JTextField OutputPath;
     private javax.swing.JPanel PathPanel;
-    private javax.swing.JProgressBar ProgressBar;
     private javax.swing.JLabel RulesJLabel;
     private javax.swing.JTextField RulesPath;
     private javax.swing.JLabel SpamJLabel;
