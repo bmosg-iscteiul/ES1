@@ -21,6 +21,9 @@ import java.util.ArrayList;
  * This layout was designed and adjusted at the start of the project via group meetings
  *
  * @author Carlos Rafael Fernandes
+ * @author Bruno Gama
+ * @author André Sousa
+ * @author Rui Farinha
  *
  */
 public class GUI extends javax.swing.JFrame {
@@ -31,13 +34,11 @@ public class GUI extends javax.swing.JFrame {
     public GUI() {
         initComponents();
 
-        initConsole();
+//        initConsole();
 
         setLocationRelativeTo(null);
         setResizable(false);
 
-//        HamPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\ham.log");
-//        SpamPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\spam.log");
         RulesPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\rules.cf");
         OutputPath.setText(System.getProperty("user.dir")+"\\experimentBaseDirectory");
         TableManual.getTableHeader().setReorderingAllowed(false);
@@ -54,6 +55,7 @@ public class GUI extends javax.swing.JFrame {
     private void initComponents() {
 
         ModeRadioGroup = new javax.swing.ButtonGroup();
+        ProgressBar = new javax.swing.JProgressBar();
         Start = new javax.swing.JToggleButton();
         ManualRadio = new javax.swing.JRadioButton();
         AutoRadio = new javax.swing.JRadioButton();
@@ -436,6 +438,7 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(TabbedPane)
+                    .addComponent(ProgressBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(ManualRadio)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -466,7 +469,9 @@ public class GUI extends javax.swing.JFrame {
                     .addComponent(jLabel2)
                     .addComponent(FP)
                     .addComponent(jLabel5))
-                .addGap(11, 11, 11))
+                .addGap(8, 8, 8)
+                .addComponent(ProgressBar, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         pack();
@@ -524,33 +529,27 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_GenerateRandomActionPerformed
 
     private void AutoSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AutoSaveActionPerformed
-        AntiSpamFilter.getInstance().saveResults(true);
+        // TODO add your handling code here:
     }//GEN-LAST:event_AutoSaveActionPerformed
 
     private void ManualSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ManualSaveActionPerformed
-        AntiSpamFilter.getInstance().saveResults(false);
+        // TODO add your handling code here:
     }//GEN-LAST:event_ManualSaveActionPerformed
 
     private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
         if(ManualRadio.isSelected() || AutoRadio.isSelected()) {
             if (AutoRadio.isSelected()) {
                 TabbedPane.setSelectedIndex(2);
-                System.out.println("Running NSGAII Algorithm");
                 repaint();
                 EventQueue.invokeLater(new Runnable(){
                     @Override
                     public void run() {
                         AntiSpamFilter.getInstance().runAuto();
-                        EventQueue.invokeLater(new Runnable(){
-                            @Override
-                            public void run() {
-                                System.out.println("NSGAII Algorithm Complete");
-                                TabbedPane.setSelectedIndex(1);
-                                repaint();
-                            }
-                        });
+                        TabbedPane.setSelectedIndex(1);
+                        repaint();
                     }
                 });
+                AntiSpamFilter.getInstance().runAuto();
             }
             else {
                 TabbedPane.setSelectedIndex(0);
@@ -611,6 +610,7 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JPanel OutputPanel;
     private javax.swing.JTextField OutputPath;
     private javax.swing.JPanel PathPanel;
+    private javax.swing.JProgressBar ProgressBar;
     private javax.swing.JLabel RulesJLabel;
     private javax.swing.JTextField RulesPath;
     private javax.swing.JLabel SpamJLabel;
