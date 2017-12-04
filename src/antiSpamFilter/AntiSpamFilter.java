@@ -215,7 +215,7 @@ public class AntiSpamFilter {
      * Checks if the Weights are well distributed
      */
 
-    private double[] checkSolutions() {
+    public double[] checkSolutions() {
         double[] bestSolutions = new double[gui.getAutoRules().size()];
         int bestValues = -1;
         try {
