@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" description="if(bestValues == -1) {" line="197" />
+    <bookmark url="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" description="if(bestValues == -1) {" line="237" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3e40531-3f6b-4d6d-8b40-39360ab826ea" name="Default" comment="Changes:">
+    <list default="true" id="f3e40531-3f6b-4d6d-8b40-39360ab826ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_FUN.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_FUN.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_VAR.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_VAR.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN4.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN4.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/HV" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/HV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_FUN.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_FUN.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_VAR.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_VAR.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR4.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR4.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/latex/AntiSpamStudy.tex" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/latex/AntiSpamStudy.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rf" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rs" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rf" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rs" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/ham(2).log" afterPath="$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/ham.log" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +25,8 @@
       <file leaf-file-name="AntiSpamFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="237" column="84" lean-forward="false" selection-start-line="237" selection-start-column="84" selection-end-line="237" selection-end-column="84" />
+            <state relative-caret-position="1728">
+              <caret line="282" column="84" lean-forward="false" selection-start-line="282" selection-start-column="84" selection-end-line="282" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -285,27 +262,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_FUN.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_VAR.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN4.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/HV</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_FUN.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_VAR.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR4.tsv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/latex/AntiSpamStudy.tex</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/jMetal.log</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -313,9 +270,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SCRUM/FirstSprintRetrospective.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SCRUM/Second Sprint Retrospective</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SCRUM/Third Sprint Retrospective</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/SCRUM/SecondSprintRetrospective.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/SCRUM/ThirdSprintRetrospective.txt</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -323,6 +279,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/SCRUM/Second Sprint Retrospective</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/SCRUM/Third Sprint Retrospective</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -567,7 +525,7 @@
       <workItem from="1511953563024" duration="813000" />
       <workItem from="1512070862602" duration="7787000" />
       <workItem from="1512133941238" duration="15391000" />
-      <workItem from="1512391233534" duration="8237000" />
+      <workItem from="1512391233534" duration="8312000" />
     </task>
     <task id="LOCAL-00001" summary="Final support for IntelliJ and NetBeans added">
       <created>1510323590702</created>
@@ -653,11 +611,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512395184048</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Changes:&#10;Changed Console prints">
+      <created>1512399533829</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1512399533829</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39700000" />
+    <option name="totallyTimeSpent" value="39775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -713,7 +678,8 @@
     <MESSAGE value="Changes:&#10;Code Fixes" />
     <MESSAGE value="Changes:&#10;Added Field for value of Independent Changes" />
     <MESSAGE value="Changes:&#10;GUI import cleanup&#10;GUI Save button listeners added&#10;GUI Changed the way the run works (now auto changes to the mode tab, for user viewing)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;GUI import cleanup&#10;GUI Save button listeners added&#10;GUI Changed the way the run works (now auto changes to the mode tab, for user viewing)" />
+    <MESSAGE value="Changes:&#10;Changed Console prints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;Changed Console prints" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1177,8 +1143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="237" column="84" lean-forward="false" selection-start-line="237" selection-start-column="84" selection-end-line="237" selection-end-column="84" />
+        <state relative-caret-position="1728">
+          <caret line="282" column="84" lean-forward="false" selection-start-line="282" selection-start-column="84" selection-end-line="282" selection-end-column="84" />
           <folding />
         </state>
       </provider>
