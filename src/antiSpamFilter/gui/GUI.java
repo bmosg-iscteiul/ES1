@@ -524,11 +524,11 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_GenerateRandomActionPerformed
 
     private void AutoSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AutoSaveActionPerformed
-        // TODO add your handling code here:
+        AntiSpamFilter.getInstance().saveResults(true);
     }//GEN-LAST:event_AutoSaveActionPerformed
 
     private void ManualSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ManualSaveActionPerformed
-        // TODO add your handling code here:
+        AntiSpamFilter.getInstance().saveResults(false);
     }//GEN-LAST:event_ManualSaveActionPerformed
 
     private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
