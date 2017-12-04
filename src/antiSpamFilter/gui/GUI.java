@@ -704,7 +704,19 @@ public class GUI extends javax.swing.JFrame {
         }
         return auto_rules;
     }
+    
+    public void setHamPath(String path) {
+    	HamPath.setText(path);
+    }
+    
+    public void setSpamPath(String path) {
+    	SpamPath.setText(path);
+    }
 
+	public void setRulesPath(String string) {
+		RulesPath.setText(string);
+		
+	}
 
     private void initConsole() {
         PrintStream console = new PrintStream(new OutputStream() {
@@ -722,5 +734,7 @@ public class GUI extends javax.swing.JFrame {
         Console.append(s);
         Console.setCaretPosition(Console.getDocument().getLength());
     }
+
+
 
 }

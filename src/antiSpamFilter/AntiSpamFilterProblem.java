@@ -53,8 +53,6 @@ public class AntiSpamFilterProblem extends AbstractDoubleProblem {
 				weightedRules.add(new Rule(split_rule[0], x[i]));
 
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }

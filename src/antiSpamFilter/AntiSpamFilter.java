@@ -117,7 +117,7 @@ public class AntiSpamFilter {
             }
             rulesReader.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Make sure the path to the Rules File is correct and it is not currently being accessed.");
         }
         return count;
     }
@@ -141,7 +141,7 @@ public class AntiSpamFilter {
             gui.setManualRules(manual_rules);
             gui.setAutoRules(auto_rules);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Make sure the path to the Rules File is correct and it is not currently being accessed.");
         }
     }
 
@@ -179,10 +179,8 @@ public class AntiSpamFilter {
                     fp++;
             }
             hamList.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
+        	System.out.println("Please make sure your path to the Ham file is correct.");
         }
         return fp;
     }
@@ -203,10 +201,8 @@ public class AntiSpamFilter {
                     fn++;
             }
             spamList.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+        }  catch (IOException e) {
+            System.out.println("Please make sure your path to the Spam file is correct.");
         }
         return fn;
     }
@@ -249,10 +245,8 @@ public class AntiSpamFilter {
                 bestSolutions[j] = Double.parseDouble(weights[j]);
             }
             bestWeights.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Make sure you have access to the experimentBaseDirectory folder.");
         }
         return bestSolutions;
     }
@@ -271,7 +265,7 @@ public class AntiSpamFilter {
             }
             rulesFile.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Make sure no other processes are trying to access the rules file.");
         }
     }
 
