@@ -92,17 +92,11 @@ public class AntiSpamFilter {
     }
 
     /**
-     * Class Getter's
+     * GUI getter
+     * @return gui
      */
-
-    public ArrayList<Rule> getRules() {
-        if (gui.getMode() == GUI.Manual)
-            return gui.getManualRules();
-        if (gui.getMode() == GUI.Auto)
-            return gui.getAutoRules();
-        return null;
-    }
-
+    
+    
     public GUI getGUI() {
         return gui;
     }
