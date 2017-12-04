@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" description="if(bestValues == -1) {" line="228" />
+    <bookmark url="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" description="if(bestValues == -1) {" line="224" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3e40531-3f6b-4d6d-8b40-39360ab826ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/rules.cf" afterPath="$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/rules.cf" />
+      <change beforePath="$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/spam.log" afterPath="$PROJECT_DIR$/AntiSpamConfigurationForProfessionalMailbox/spam.log" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_FUN.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_FUN.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_VAR.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_VAR.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN4.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN4.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/HV" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/HV" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_FUN.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_FUN.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_VAR.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_VAR.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR4.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR4.tsv" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/latex/AntiSpamStudy.tex" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/latex/AntiSpamStudy.tex" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rf" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rf" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rs" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rs" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rf" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rf" />
+      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rs" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rs" />
+      <change beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
+      <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
+      <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java" />
       <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -23,26 +48,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AntiSpamFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AntiSpamFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="265" column="39" lean-forward="true" selection-start-line="265" selection-start-column="39" selection-end-line="265" selection-end-column="39" />
+            <state relative-caret-position="4114">
+              <caret line="242" column="47" lean-forward="false" selection-start-line="242" selection-start-column="47" selection-end-line="242" selection-end-column="47" />
               <folding>
-                <element signature="e#1662#1663#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-                <element signature="e#1733#1813#0" expanded="true" />
-                <element signature="e#3176#3177#0" expanded="true" />
-                <element signature="e#3202#3203#0" expanded="true" />
-                <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
-                <element signature="method#loadRules#0;class#AntiSpamFilter#0" expanded="false" />
-                <element signature="method#evaluateRuleWeight#0;class#AntiSpamFilter#0" expanded="false" />
-                <element signature="method#evaluateHam#0;class#AntiSpamFilter#0" expanded="false" />
-                <element signature="method#evaluateSpam#0;class#AntiSpamFilter#0" expanded="false" />
-                <element signature="method#checkSolutions#0;class#AntiSpamFilter#0" expanded="false" />
-                <element signature="method#runAuto#0;class#AntiSpamFilter#0" expanded="false" />
-                <element signature="e#10195#10196#0" expanded="true" />
-                <element signature="e#10239#10240#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,31 +63,58 @@
       <file leaf-file-name="AntiSpamFilterProblem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1157">
-              <caret line="65" column="40" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+            <state relative-caret-position="833">
+              <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1512174148024" expanded="true" signature="2257:2263" ph="{...}" />
+                <element signature="e#1531#1561#0" expanded="true" />
+                <element signature="e#28047#28048#0" expanded="true" />
+                <element signature="e#28135#28136#0" expanded="true" />
+                <element signature="e#31271#31272#0" expanded="true" />
+                <element signature="e#31313#31314#0" expanded="true" />
+                <element signature="e#31347#31348#0" expanded="true" />
+                <element signature="e#31387#31388#0" expanded="true" />
+                <element signature="e#31421#31422#0" expanded="true" />
+                <element signature="e#31462#31463#0" expanded="true" />
+                <element signature="e#31487#31488#0" expanded="true" />
+                <element signature="e#31540#31541#0" expanded="true" />
+                <element signature="e#31565#31566#0" expanded="true" />
+                <element signature="e#31618#31619#0" expanded="true" />
+                <element signature="e#31656#31657#0" expanded="true" />
+                <element signature="e#31722#31723#0" expanded="true" />
+                <element signature="e#31753#31754#0" expanded="true" />
+                <element signature="e#31785#31786#0" expanded="true" />
+                <element signature="e#31816#31817#0" expanded="true" />
+                <element signature="e#31848#31849#0" expanded="true" />
+                <element signature="e#33617#33618#0" expanded="true" />
+                <element signature="e#33651#33652#0" expanded="true" />
+                <element signature="e#33699#33700#0" expanded="true" />
+                <element signature="e#33734#33735#0" expanded="true" />
+                <element signature="e#33895#34075#0" expanded="true" />
+                <element signature="e#34074#34075#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
+      <file leaf-file-name="AntiSpamFilterAutomaticConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="535" column="54" lean-forward="false" selection-start-line="535" selection-start-column="54" selection-end-line="535" selection-end-column="54" />
+            <state relative-caret-position="17">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#31327#31328#0" expanded="true" />
-                <element signature="e#31369#31370#0" expanded="true" />
-                <element signature="e#31403#31404#0" expanded="true" />
-                <element signature="e#31443#31444#0" expanded="true" />
-                <element signature="e#31477#31478#0" expanded="true" />
-                <element signature="e#31518#31519#0" expanded="true" />
-                <element signature="e#31556#31557#0" expanded="true" />
-                <element signature="e#31622#31623#0" expanded="true" />
+                <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+                <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -149,6 +188,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -173,20 +215,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="antiSpamFilter" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="antiSpamFilter" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,9 +252,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.classpath</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -315,6 +344,660 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.classpath</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java</PATH>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
@@ -593,39 +1276,59 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41426000" />
+    <option name="totallyTimeSpent" value="42141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2762" height="1790" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -664,10 +1367,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1512174148024" expanded="true" signature="2257:2263" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +1376,9 @@
         <state relative-caret-position="521">
           <caret line="58" column="99" lean-forward="false" selection-start-line="58" selection-start-column="99" selection-end-line="58" selection-end-column="99" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -698,20 +1400,7 @@
         <state relative-caret-position="1156">
           <caret line="108" column="45" lean-forward="false" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
           <folding>
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1733#1813#0" expanded="true" />
-            <element signature="e#3176#3177#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#loadRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateRuleWeight#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateHam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateSpam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#checkSolutions#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#runAuto#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="e#10195#10196#0" expanded="true" />
-            <element signature="e#10239#10240#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -732,15 +1421,31 @@
         <state relative-caret-position="1966">
           <caret line="631" column="5" lean-forward="false" selection-start-line="631" selection-start-column="5" selection-end-line="631" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#31327#31328#0" expanded="true" />
-            <element signature="e#31369#31370#0" expanded="true" />
-            <element signature="e#31403#31404#0" expanded="true" />
-            <element signature="e#31443#31444#0" expanded="true" />
-            <element signature="e#31477#31478#0" expanded="true" />
-            <element signature="e#31518#31519#0" expanded="true" />
-            <element signature="e#31556#31557#0" expanded="true" />
-            <element signature="e#31622#31623#0" expanded="true" />
+            <element signature="e#1531#1561#0" expanded="true" />
+            <element signature="e#28047#28048#0" expanded="true" />
+            <element signature="e#28135#28136#0" expanded="true" />
+            <element signature="e#31271#31272#0" expanded="true" />
+            <element signature="e#31313#31314#0" expanded="true" />
+            <element signature="e#31347#31348#0" expanded="true" />
+            <element signature="e#31387#31388#0" expanded="true" />
+            <element signature="e#31421#31422#0" expanded="true" />
+            <element signature="e#31462#31463#0" expanded="true" />
+            <element signature="e#31487#31488#0" expanded="true" />
+            <element signature="e#31540#31541#0" expanded="true" />
+            <element signature="e#31565#31566#0" expanded="true" />
+            <element signature="e#31618#31619#0" expanded="true" />
+            <element signature="e#31656#31657#0" expanded="true" />
+            <element signature="e#31722#31723#0" expanded="true" />
+            <element signature="e#31753#31754#0" expanded="true" />
+            <element signature="e#31785#31786#0" expanded="true" />
+            <element signature="e#31816#31817#0" expanded="true" />
+            <element signature="e#31848#31849#0" expanded="true" />
+            <element signature="e#33617#33618#0" expanded="true" />
+            <element signature="e#33651#33652#0" expanded="true" />
+            <element signature="e#33699#33700#0" expanded="true" />
+            <element signature="e#33734#33735#0" expanded="true" />
+            <element signature="e#33895#34075#0" expanded="true" />
+            <element signature="e#34074#34075#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -750,20 +1455,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1733#1813#0" expanded="true" />
-            <element signature="e#3176#3177#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#loadRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateRuleWeight#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateHam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateSpam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#checkSolutions#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#runAuto#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="e#10195#10196#0" expanded="true" />
-            <element signature="e#10239#10240#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -773,20 +1465,7 @@
         <state relative-caret-position="629">
           <caret line="70" column="120" lean-forward="true" selection-start-line="70" selection-start-column="120" selection-end-line="70" selection-end-column="120" />
           <folding>
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1733#1813#0" expanded="true" />
-            <element signature="e#3176#3177#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#loadRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateRuleWeight#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateHam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateSpam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#checkSolutions#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#runAuto#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="e#10195#10196#0" expanded="true" />
-            <element signature="e#10239#10240#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -796,15 +1475,31 @@
         <state relative-caret-position="1207">
           <caret line="321" column="42" lean-forward="true" selection-start-line="321" selection-start-column="42" selection-end-line="321" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#31327#31328#0" expanded="true" />
-            <element signature="e#31369#31370#0" expanded="true" />
-            <element signature="e#31403#31404#0" expanded="true" />
-            <element signature="e#31443#31444#0" expanded="true" />
-            <element signature="e#31477#31478#0" expanded="true" />
-            <element signature="e#31518#31519#0" expanded="true" />
-            <element signature="e#31556#31557#0" expanded="true" />
-            <element signature="e#31622#31623#0" expanded="true" />
+            <element signature="e#1531#1561#0" expanded="true" />
+            <element signature="e#28047#28048#0" expanded="true" />
+            <element signature="e#28135#28136#0" expanded="true" />
+            <element signature="e#31271#31272#0" expanded="true" />
+            <element signature="e#31313#31314#0" expanded="true" />
+            <element signature="e#31347#31348#0" expanded="true" />
+            <element signature="e#31387#31388#0" expanded="true" />
+            <element signature="e#31421#31422#0" expanded="true" />
+            <element signature="e#31462#31463#0" expanded="true" />
+            <element signature="e#31487#31488#0" expanded="true" />
+            <element signature="e#31540#31541#0" expanded="true" />
+            <element signature="e#31565#31566#0" expanded="true" />
+            <element signature="e#31618#31619#0" expanded="true" />
+            <element signature="e#31656#31657#0" expanded="true" />
+            <element signature="e#31722#31723#0" expanded="true" />
+            <element signature="e#31753#31754#0" expanded="true" />
+            <element signature="e#31785#31786#0" expanded="true" />
+            <element signature="e#31816#31817#0" expanded="true" />
+            <element signature="e#31848#31849#0" expanded="true" />
+            <element signature="e#33617#33618#0" expanded="true" />
+            <element signature="e#33651#33652#0" expanded="true" />
+            <element signature="e#33699#33700#0" expanded="true" />
+            <element signature="e#33734#33735#0" expanded="true" />
+            <element signature="e#33895#34075#0" expanded="true" />
+            <element signature="e#34074#34075#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -814,7 +1509,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -823,9 +1520,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1512174148024" expanded="true" signature="2257:2263" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -835,17 +1541,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -876,10 +1574,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1512174148024" expanded="true" signature="2257:2263" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -891,15 +1586,31 @@
         <state relative-caret-position="-402">
           <caret line="273" column="34" lean-forward="false" selection-start-line="273" selection-start-column="34" selection-end-line="273" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#31327#31328#0" expanded="true" />
-            <element signature="e#31369#31370#0" expanded="true" />
-            <element signature="e#31403#31404#0" expanded="true" />
-            <element signature="e#31443#31444#0" expanded="true" />
-            <element signature="e#31477#31478#0" expanded="true" />
-            <element signature="e#31518#31519#0" expanded="true" />
-            <element signature="e#31556#31557#0" expanded="true" />
-            <element signature="e#31622#31623#0" expanded="true" />
+            <element signature="e#1531#1561#0" expanded="true" />
+            <element signature="e#28047#28048#0" expanded="true" />
+            <element signature="e#28135#28136#0" expanded="true" />
+            <element signature="e#31271#31272#0" expanded="true" />
+            <element signature="e#31313#31314#0" expanded="true" />
+            <element signature="e#31347#31348#0" expanded="true" />
+            <element signature="e#31387#31388#0" expanded="true" />
+            <element signature="e#31421#31422#0" expanded="true" />
+            <element signature="e#31462#31463#0" expanded="true" />
+            <element signature="e#31487#31488#0" expanded="true" />
+            <element signature="e#31540#31541#0" expanded="true" />
+            <element signature="e#31565#31566#0" expanded="true" />
+            <element signature="e#31618#31619#0" expanded="true" />
+            <element signature="e#31656#31657#0" expanded="true" />
+            <element signature="e#31722#31723#0" expanded="true" />
+            <element signature="e#31753#31754#0" expanded="true" />
+            <element signature="e#31785#31786#0" expanded="true" />
+            <element signature="e#31816#31817#0" expanded="true" />
+            <element signature="e#31848#31849#0" expanded="true" />
+            <element signature="e#33617#33618#0" expanded="true" />
+            <element signature="e#33651#33652#0" expanded="true" />
+            <element signature="e#33699#33700#0" expanded="true" />
+            <element signature="e#33734#33735#0" expanded="true" />
+            <element signature="e#33895#34075#0" expanded="true" />
+            <element signature="e#34074#34075#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -909,20 +1620,7 @@
         <state relative-caret-position="68">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1733#1813#0" expanded="true" />
-            <element signature="e#3176#3177#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#loadRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateRuleWeight#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateHam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateSpam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#checkSolutions#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#runAuto#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="e#10195#10196#0" expanded="true" />
-            <element signature="e#10239#10240#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,7 +1630,9 @@
         <state relative-caret-position="221">
           <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -942,20 +1642,7 @@
         <state relative-caret-position="1190">
           <caret line="70" column="120" lean-forward="true" selection-start-line="70" selection-start-column="120" selection-end-line="70" selection-end-column="120" />
           <folding>
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1733#1813#0" expanded="true" />
-            <element signature="e#3176#3177#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#loadRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateRuleWeight#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateHam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateSpam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#checkSolutions#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#runAuto#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="e#10195#10196#0" expanded="true" />
-            <element signature="e#10239#10240#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -965,15 +1652,31 @@
         <state relative-caret-position="5457">
           <caret line="321" column="42" lean-forward="true" selection-start-line="321" selection-start-column="42" selection-end-line="321" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#31327#31328#0" expanded="true" />
-            <element signature="e#31369#31370#0" expanded="true" />
-            <element signature="e#31403#31404#0" expanded="true" />
-            <element signature="e#31443#31444#0" expanded="true" />
-            <element signature="e#31477#31478#0" expanded="true" />
-            <element signature="e#31518#31519#0" expanded="true" />
-            <element signature="e#31556#31557#0" expanded="true" />
-            <element signature="e#31622#31623#0" expanded="true" />
+            <element signature="e#1531#1561#0" expanded="true" />
+            <element signature="e#28047#28048#0" expanded="true" />
+            <element signature="e#28135#28136#0" expanded="true" />
+            <element signature="e#31271#31272#0" expanded="true" />
+            <element signature="e#31313#31314#0" expanded="true" />
+            <element signature="e#31347#31348#0" expanded="true" />
+            <element signature="e#31387#31388#0" expanded="true" />
+            <element signature="e#31421#31422#0" expanded="true" />
+            <element signature="e#31462#31463#0" expanded="true" />
+            <element signature="e#31487#31488#0" expanded="true" />
+            <element signature="e#31540#31541#0" expanded="true" />
+            <element signature="e#31565#31566#0" expanded="true" />
+            <element signature="e#31618#31619#0" expanded="true" />
+            <element signature="e#31656#31657#0" expanded="true" />
+            <element signature="e#31722#31723#0" expanded="true" />
+            <element signature="e#31753#31754#0" expanded="true" />
+            <element signature="e#31785#31786#0" expanded="true" />
+            <element signature="e#31816#31817#0" expanded="true" />
+            <element signature="e#31848#31849#0" expanded="true" />
+            <element signature="e#33617#33618#0" expanded="true" />
+            <element signature="e#33651#33652#0" expanded="true" />
+            <element signature="e#33699#33700#0" expanded="true" />
+            <element signature="e#33734#33735#0" expanded="true" />
+            <element signature="e#33895#34075#0" expanded="true" />
+            <element signature="e#34074#34075#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -983,7 +1686,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -992,9 +1697,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1512174148024" expanded="true" signature="2257:2263" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1004,17 +1718,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1060,39 +1766,54 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterAutomaticConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        <state relative-caret-position="17">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1512423167868" expanded="true" signature="2055:2586" ph="{...}" />
+            <marker date="1512423167868" expanded="true" signature="2752:3469" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1157">
-          <caret line="65" column="40" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1512174148024" expanded="true" signature="2257:2263" ph="{...}" />
-          </folding>
+        <state relative-caret-position="833">
+          <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="535" column="54" lean-forward="false" selection-start-line="535" selection-start-column="54" selection-end-line="535" selection-end-column="54" />
+        <state relative-caret-position="408">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#31327#31328#0" expanded="true" />
-            <element signature="e#31369#31370#0" expanded="true" />
-            <element signature="e#31403#31404#0" expanded="true" />
-            <element signature="e#31443#31444#0" expanded="true" />
-            <element signature="e#31477#31478#0" expanded="true" />
-            <element signature="e#31518#31519#0" expanded="true" />
-            <element signature="e#31556#31557#0" expanded="true" />
-            <element signature="e#31622#31623#0" expanded="true" />
+            <element signature="e#1531#1561#0" expanded="true" />
+            <element signature="e#28047#28048#0" expanded="true" />
+            <element signature="e#28135#28136#0" expanded="true" />
+            <element signature="e#31271#31272#0" expanded="true" />
+            <element signature="e#31313#31314#0" expanded="true" />
+            <element signature="e#31347#31348#0" expanded="true" />
+            <element signature="e#31387#31388#0" expanded="true" />
+            <element signature="e#31421#31422#0" expanded="true" />
+            <element signature="e#31462#31463#0" expanded="true" />
+            <element signature="e#31487#31488#0" expanded="true" />
+            <element signature="e#31540#31541#0" expanded="true" />
+            <element signature="e#31565#31566#0" expanded="true" />
+            <element signature="e#31618#31619#0" expanded="true" />
+            <element signature="e#31656#31657#0" expanded="true" />
+            <element signature="e#31722#31723#0" expanded="true" />
+            <element signature="e#31753#31754#0" expanded="true" />
+            <element signature="e#31785#31786#0" expanded="true" />
+            <element signature="e#31816#31817#0" expanded="true" />
+            <element signature="e#31848#31849#0" expanded="true" />
+            <element signature="e#33617#33618#0" expanded="true" />
+            <element signature="e#33651#33652#0" expanded="true" />
+            <element signature="e#33699#33700#0" expanded="true" />
+            <element signature="e#33734#33735#0" expanded="true" />
+            <element signature="e#33895#34075#0" expanded="true" />
+            <element signature="e#34074#34075#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1101,29 +1822,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="265" column="39" lean-forward="true" selection-start-line="265" selection-start-column="39" selection-end-line="265" selection-end-column="39" />
+        <state relative-caret-position="4114">
+          <caret line="242" column="47" lean-forward="false" selection-start-line="242" selection-start-column="47" selection-end-line="242" selection-end-column="47" />
           <folding>
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1733#1813#0" expanded="true" />
-            <element signature="e#3176#3177#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="method#countRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#loadRules#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateRuleWeight#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateHam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#evaluateSpam#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#checkSolutions#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="method#runAuto#0;class#AntiSpamFilter#0" expanded="false" />
-            <element signature="e#10195#10196#0" expanded="true" />
-            <element signature="e#10239#10240#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
