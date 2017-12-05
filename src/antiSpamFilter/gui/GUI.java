@@ -39,7 +39,6 @@ public class GUI extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         setResizable(false);
 
-
         RulesPath.setText(System.getProperty("user.dir")+"\\AntiSpamConfigurationForProfessionalMailbox\\rules.cf");
         OutputPath.setText(System.getProperty("user.dir")+"\\experimentBaseDirectory");
         TableManual.getTableHeader().setReorderingAllowed(false);
@@ -56,6 +55,7 @@ public class GUI extends javax.swing.JFrame {
     private void initComponents() {
 
         ModeRadioGroup = new javax.swing.ButtonGroup();
+        ProgressBar = new javax.swing.JProgressBar();
         Start = new javax.swing.JToggleButton();
         ManualRadio = new javax.swing.JRadioButton();
         AutoRadio = new javax.swing.JRadioButton();
@@ -438,6 +438,7 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(TabbedPane)
+                    .addComponent(ProgressBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(ManualRadio)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -468,7 +469,9 @@ public class GUI extends javax.swing.JFrame {
                     .addComponent(jLabel2)
                     .addComponent(FP)
                     .addComponent(jLabel5))
-                .addGap(11, 11, 11))
+                .addGap(8, 8, 8)
+                .addComponent(ProgressBar, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         pack();
@@ -537,14 +540,14 @@ public class GUI extends javax.swing.JFrame {
         if(ManualRadio.isSelected() || AutoRadio.isSelected()) {
             if (AutoRadio.isSelected()) {
                 TabbedPane.setSelectedIndex(2);
-                System.out.println("Running NSGAII Algorithm...");
+                System.out.println("Started NASGII Algorithm...");
                 repaint();
                 EventQueue.invokeLater(new Runnable(){
                     @Override
                     public void run() {
                         AntiSpamFilter.getInstance().runAuto();
-                        System.out.println("NSGAII Algorithm ended");
                         TabbedPane.setSelectedIndex(1);
+                        System.out.println("NASGII Algorithm has Terminated");
                         repaint();
                     }
                 });
@@ -608,6 +611,7 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JPanel OutputPanel;
     private javax.swing.JTextField OutputPath;
     private javax.swing.JPanel PathPanel;
+    private javax.swing.JProgressBar ProgressBar;
     private javax.swing.JLabel RulesJLabel;
     private javax.swing.JTextField RulesPath;
     private javax.swing.JLabel SpamJLabel;
@@ -623,17 +627,6 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane4;
     // End of variables declaration//GEN-END:variables
-
-    public static final int Manual =1;
-    public static final int Auto =2;
-
-    public int getMode(){
-        if(AutoRadio.isSelected())
-            return 2;
-        if(ManualRadio.isSelected())
-            return 1;
-        return 0;
-    }
 
     public String getRulesPath(){
         return RulesPath.getText();

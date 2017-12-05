@@ -24,7 +24,7 @@ import java.util.List;
  * Main class that starts and loads the antiSpam program
  *
  * @author Carlos Rafael Fernandes
- * @author Andr� Sousa
+ * @author André Sousa
  * @author Bruno Gama
  * @author Rui farinha
  */
@@ -63,6 +63,7 @@ public class AntiSpamFilter {
     }
 
     private void showGUI() {
+    	//TODO Make Better
         //<editor-fold defaultstate="collapsed" desc="Swing look and feel setting code">
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
