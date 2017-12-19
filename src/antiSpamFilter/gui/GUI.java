@@ -589,7 +589,7 @@ public class GUI extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel AutoMode;
-    private javax.swing.JRadioButton AutoRadio;
+    public javax.swing.JRadioButton AutoRadio;
     private javax.swing.JButton AutoSave;
     private javax.swing.JButton ChangeHamPath;
     private javax.swing.JButton ChangeOutputPath;
@@ -599,13 +599,13 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JPanel ConsolePanel;
     private javax.swing.JLabel FN;
     private javax.swing.JLabel FP;
-    private javax.swing.JButton GenerateRandom;
+    public javax.swing.JButton GenerateRandom;
     private javax.swing.JLabel HamJLabel;
     private javax.swing.JTextField HamPath;
     private javax.swing.JTextField IndependentRuns;
     private javax.swing.JPanel InputPanel;
     private javax.swing.JPanel ManualMode;
-    private javax.swing.JRadioButton ManualRadio;
+    public javax.swing.JRadioButton ManualRadio;
     private javax.swing.JButton ManualSave;
     private javax.swing.ButtonGroup ModeRadioGroup;
     private javax.swing.JPanel OutputPanel;
@@ -616,7 +616,7 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JTextField RulesPath;
     private javax.swing.JLabel SpamJLabel;
     private javax.swing.JTextField SpamPath;
-    private javax.swing.JToggleButton Start;
+    public javax.swing.JToggleButton Start;
     private javax.swing.JTabbedPane TabbedPane;
     private javax.swing.JTable TableAuto;
     private javax.swing.JTable TableManual;
