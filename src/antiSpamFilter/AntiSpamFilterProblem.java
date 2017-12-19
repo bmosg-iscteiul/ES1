@@ -1,20 +1,23 @@
 package antiSpamFilter;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import antiSpamFilter.gui.GUI;
 import antiSpamFilter.utils.Rule;
 import org.uma.jmetal.problem.impl.AbstractDoubleProblem;
 import org.uma.jmetal.solution.DoubleSolution;
 
 public class AntiSpamFilterProblem extends AbstractDoubleProblem {
 
-    public AntiSpamFilterProblem() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -8036102488474183100L;
+
+	public AntiSpamFilterProblem() {
         // 10 variables (anti-spam filter rules) by default
         this(335);
     }
@@ -37,7 +40,6 @@ public class AntiSpamFilterProblem extends AbstractDoubleProblem {
     }
 
     public void evaluate(DoubleSolution solution) {
-        double aux, xi, xj;
         double[] fx = new double[getNumberOfObjectives()];
         double[] x = new double[getNumberOfVariables()];
         for (int i = 0; i < solution.getNumberOfVariables(); i++) {
@@ -53,10 +55,11 @@ public class AntiSpamFilterProblem extends AbstractDoubleProblem {
 				weightedRules.add(new Rule(split_rule[0], x[i]));
 
             }
+            rulesList.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        
         fx[0] = AntiSpamFilter.getInstance().evaluateHam(weightedRules);
         fx[1] = AntiSpamFilter.getInstance().evaluateSpam(weightedRules);
 

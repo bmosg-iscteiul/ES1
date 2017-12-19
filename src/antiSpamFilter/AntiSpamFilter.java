@@ -2,23 +2,10 @@ package antiSpamFilter;
 
 import antiSpamFilter.gui.GUI;
 import antiSpamFilter.utils.Rule;
-import org.uma.jmetal.algorithm.Algorithm;
-import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
-import org.uma.jmetal.operator.impl.crossover.SBXCrossover;
-import org.uma.jmetal.operator.impl.mutation.PolynomialMutation;
-import org.uma.jmetal.qualityindicator.impl.hypervolume.PISAHypervolume;
-import org.uma.jmetal.solution.DoubleSolution;
-import org.uma.jmetal.util.experiment.Experiment;
-import org.uma.jmetal.util.experiment.ExperimentBuilder;
-import org.uma.jmetal.util.experiment.component.*;
-import org.uma.jmetal.util.experiment.util.ExperimentAlgorithm;
-import org.uma.jmetal.util.experiment.util.ExperimentProblem;
 
 import javax.swing.*;
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Main class that starts and loads the antiSpam program
@@ -41,7 +28,6 @@ public class AntiSpamFilter {
     }// </editor-fold>
 
     private GUI gui;
-    private static final int INDEPENDENT_RUNS = 5;
 
     /**
      * Class Constructor

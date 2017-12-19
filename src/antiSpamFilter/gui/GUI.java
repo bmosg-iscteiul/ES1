@@ -29,6 +29,11 @@ import java.util.ArrayList;
 public class GUI extends javax.swing.JFrame {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 5931783080793207328L;
+
+	/**
      * @
      */
     public GUI() {

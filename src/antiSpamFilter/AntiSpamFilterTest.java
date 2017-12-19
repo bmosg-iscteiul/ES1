@@ -36,7 +36,7 @@ public class AntiSpamFilterTest {
 
 	@Test
 	public void testLoadRulesDefault() throws IOException {
-		File file = new File(System.getProperty("user.dir") + "jUnitTests\\DeafultRules.cf");
+		new File(System.getProperty("user.dir") + "jUnitTests\\DeafultRules.cf");
 		filter.loadRules();
 		assertEquals(filter.countRules(), filter.getGUI().getManualRules().size());
 		
@@ -44,7 +44,6 @@ public class AntiSpamFilterTest {
 		f.getChannel().lock();
 		filter.loadRules();
 		f.close();
-		
 	}
 
 	@Test
