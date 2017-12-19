@@ -26,12 +26,10 @@ import java.util.ArrayList;
  * @author Rui Farinha
  *
  */
-public class GUI extends javax.swing.JFrame {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 5931783080793207328L;
+
+@SuppressWarnings("all")
+public class GUI extends javax.swing.JFrame {
 
 	/**
      * @

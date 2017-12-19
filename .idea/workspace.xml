@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab433342-3b62-4760-bddc-3ff51f3bea5a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ES1-2017-EIC1-28.jar" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_FUN.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_FUN.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_VAR.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/BEST_HV_VAR.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN0.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN1.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN2.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN3.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN4.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/FUN4.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/HV" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/HV" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_FUN.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_FUN.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_VAR.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/MEDIAN_HV_VAR.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR0.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR1.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR2.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR3.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR4.tsv" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/data/NSGAII/AntiSpamFilterProblem/VAR4.tsv" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/latex/AntiSpamStudy.tex" afterPath="$PROJECT_DIR$/experimentBaseDirectory/AntiSpamStudy/latex/AntiSpamStudy.tex" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rf" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rf" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rs" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.NSGAII.rs" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rf" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rf" />
-      <change beforePath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rs" afterPath="$PROJECT_DIR$/experimentBaseDirectory/referenceFronts/AntiSpamFilterProblem.rs" />
-      <change beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
-      <change beforePath="$PROJECT_DIR$/jUnitTests/jUnitTests.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java" />
-      <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterProblem.java" />
-      <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterTest.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterTest.java" afterPath="$PROJECT_DIR$/jUnitTests/AntiSpamFilterTest.java" />
       <change beforePath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" afterPath="$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -40,31 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AntiSpamFilterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AntiSpamFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AntiSpamFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+              <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -129,6 +98,11 @@
             <path>
               <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
+              <item name="jUnitTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -143,6 +117,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="antiSpamFilter" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ES1-2017-EIC1-28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ES1-2017-EIC1-28" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCoverage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,7 +280,7 @@
       <option name="presentableId" value="Default" />
       <updated>1513691179842</updated>
       <workItem from="1513691192836" duration="1491000" />
-      <workItem from="1513693569571" duration="589000" />
+      <workItem from="1513693569571" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="JUnit test 91.5% coverage, and 81.5 complexity coverage">
       <created>1513692206935</created>
@@ -310,15 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1513692206935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some code clean up for Build of Jar executable">
+      <created>1513694245420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513694245420</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2080000" />
+    <option name="totallyTimeSpent" value="2616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -333,7 +318,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -357,7 +342,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JUnit test 91.5% coverage, and 81.5 complexity coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUnit test 91.5% coverage, and 81.5 complexity coverage" />
+    <MESSAGE value="Some code clean up for Build of Jar executable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some code clean up for Build of Jar executable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -368,22 +354,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="43" />
+          <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -391,8 +371,26 @@
     <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/AntiSpamFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+          <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCoverage/TestCoverage.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antiSpamFilter/gui/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
