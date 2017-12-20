@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="antiSpamFilter.AntiSpamFilter" x="52" y="-57">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="false"
+            default-accepted="false" static-accepted="true"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="antiSpamFilter.gui.GUI"
+            endpointName="gui" kind="Simple"/>
+        <Communication destinationClassName="antiSpamFilter.utils.Rule"/>
+        <Communication destinationClassName="antiSpamFilter.AntiSpamFilterAutomaticConfiguration"/>
+        <Communication destinationClassName="antiSpamFilter.gui.GUI"/>
+    </Class>
+    <Class name="antiSpamFilter.utils.Rule" x="127" y="297">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="antiSpamFilter.AntiSpamFilterAutomaticConfiguration"
+        x="332" y="202">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="antiSpamFilter.AntiSpamFilterProblem" x="108" y="195">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="antiSpamFilter.AntiSpamFilter"/>
+        <Communication destinationClassName="antiSpamFilter.gui.GUI"/>
+    </Class>
+    <Class name="antiSpamFilter.gui.GUI" x="552" y="-57">
+        <AttributesDisplayFilter public-accepted="false"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="true"/>
+        <Communication destinationClassName="antiSpamFilter.AntiSpamFilter"/>
+        <Communication destinationClassName="antiSpamFilter.utils.Rule"/>
+    </Class>
+</ClassDiagram>
