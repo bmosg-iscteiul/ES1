@@ -11,9 +11,9 @@ import java.util.ArrayList;
  * Main class that starts and loads the antiSpam program
  *
  * @author Carlos Rafael Fernandes
- * @author André Sousa
+ * @author Andre Sousa
  * @author Bruno Gama
- * @author Rui farinha
+ * @author Rui Farinha
  */
 
 public class AntiSpamFilter {
