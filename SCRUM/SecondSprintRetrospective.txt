@@ -7,3 +7,16 @@ Second Sprint Restrospective (Filter Configuration)
 .Implementar funções executadas pelos botões.
 .Comparação de Valores.
 .Escolha de Valores apropriados.
+
+
+Resumo:
+	Neste segundo Sprint de forma geral o balanço é positivo conseguimos realizar e completar tudo o que
+	tinhamos definido e tudo o que tinhamos em atraso fazendo com que consigamos ter tempo no próximo
+	Sprint de não só realizar o trabalho desejado, bem como se possivel melhorar o anterior.
+	Podemos verificar melhorias na comunicação da equipa embora o número de reuniões presenciais não seja
+	o desejado tentando sempre combater com reuniões por plataformas.
+	Vamos tentar melhorar ainda mais a nossa organização e disponibilidade de tempo para que consigamos
+	ter mais tempo para realizarmos as reuniões em que a equipa se encontre toda no mesmo espaço.
+	
+	Proximo Sprint ficou definido realizar uma limpeza no código e optimizar o mesmo para que possamos
+	passar para os Testes e Doumentação.

@@ -1,0 +1,20 @@
+Deliver Sprint Restrospective 
+
+-TO-DO
+
+
+-Completed
+.Criação de documentos Java Doc
+.Realização e Verificação de Testes
+.Relatório Code Inspection
+.Criação de ficheiros R, Latex, Restrospectives, etc.
+
+
+Resumo:
+    Poderemos finalmente concluir que embora a equipa não tenha tido o melhor arranque
+    conseguimos superar o nosso atraso inicial e melhorar os aspetos de forma a não só concluir o projeto
+    bem como a melhora-lo a cada Sprint que ia-mos ralizando, um dos aspetos mais dificeis foi 
+    conseguir dividir o trabalho sem nos atropelar e sem passar uns por cima dos outros que se derivou a 
+    uma distancia dos membros no local de trabalho mas que após a primeira retrospective foi
+    corrigida e alinhada com todos os membros de forma a conseguir concluir o produto final.
+

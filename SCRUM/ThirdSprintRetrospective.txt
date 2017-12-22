@@ -1,6 +1,20 @@
-Second Sprint Restrospective (Testing)
+Third Sprint Restrospective (Testing)
 
 -TO-DO
 
 
 -Completed
+.Limpeza de Código
+.Optimização
+.Junit
+
+Resumo:
+	Para um terceiro Sprint podemos concluir que o projeto está a avançar bem e dentro
+	dos prazos estipulados pela equipa, conseguimos novamente realizar todos os pontos 
+	definidos o que novamente nos dá tempo para melhorar erros que existiam anteriormente.
+	Neste Sprint ficou acordado entre todos os elementos que relativamente à equipa não haveria
+	nada a melhorar em questão de organização nem em questão de divisão de trabalho, dado que
+	desta vez não houve nada a apontar de critico.
+	
+	Proximo Sprint já será realizado a planear a entrega finalizando os ultimos pontos pedidos
+	pelo professor tais como documentação, testes, etc.

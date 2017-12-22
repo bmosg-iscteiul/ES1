@@ -7,3 +7,13 @@ First Sprint Restrospective (GUI)
 .GUI
 .Consola
 .Leitura de Ficheiros
+
+
+Resumo:
+    Para primeiro Sprint conseguimos criar a interface Gráfica com a consola, alguns botões e fazer com
+    que fosse possivel a leitura de ficheiros. Tivemos alguns contratempos na implementação de algumas
+    funções e action listeners dos botões introduzidos mas nada que nos vá atrasar futuramente, teremos é
+    de melhorar o nosso nivel de comunicação e de organização em grupo.
+    Proximo Sprint ficou definido finalizar a implementação de funções executadas pelos botões, fazer a 
+    Comparação de valores e escolher/verificar quais os valores apropriados para cada campo
+
